@@ -68,7 +68,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
       id: 'news',
       titleKo: '소식 및 세미나',
       titleEn: 'News & Seminars',
-      descKo: '연구실 공지사항, 주간 정기 세미나 일정 및 갤러리',
+      descKo: '연구실 공지사항, 정기 세미나 일정 및 갤러리',
       descEn: 'Lab announcements, weekly seminars & lab gallery',
       icon: Bell,
       badge: 'Updated'
@@ -77,8 +77,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
       id: 'recruitment',
       titleKo: '신입 연구원 모집',
       titleEn: 'Prospective Students',
-      descKo: '대학원생(석박통합/석사/박사) 및 인턴 상시 모집 및 지원 혜택',
-      descEn: 'Open positions, full tuition support & research incentives',
+      descKo: '대학원생 및 학부연구생 상시 모집 및 지원 혜택',
+      descEn: 'Open positions, tuition support & research incentives',
       icon: Mail,
       badge: 'Active Recruiting',
       isHighlight: true
