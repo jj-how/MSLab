@@ -1,0 +1,6 @@
+{
+  "name": "전남대학교 데이터사이언스 & 지능형통계 연구실",
+  "description": "전남대학교 자연과학대학 통계학과 / 빅데이터융합학과 김민수 교수 연구실(DSIS Lab) 공식 포털. 의료 바이오 AI, 시계열 데이터 마이닝, 생체 신호 패턴인식 및 응용통계 연구 성과와 논문 실적, 연구원 모집 안내 제공.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

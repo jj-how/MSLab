@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #ffffff;
+  --card: #ffffff;
+  --card-hover: #f8fafc;
+  --accent: #b7e0fa;
+  --accent-dark: #0284c7;
+  --accent-light: #e0f2fe;
+  --accent-dim: rgba(183, 224, 250, 0.4);
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --border: #e2e8f0;
+  --border-accent: #b7e0fa;
+}
+
+@layer base {
+  body {
+    background-color: var(--bg);
+    color: var(--text-primary);
+    font-family: 'Plus Jakarta Sans', 'Noto Sans KR', sans-serif;
+  }
+}
+
+.font-serif {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.text-accent {
+  color: var(--accent-dark);
+}
+
+.bg-accent {
+  background-color: var(--accent);
+}
+
+.border-accent {
+  border-color: var(--border-accent);
+}
+
+.bg-card {
+  background-color: var(--card);
+}
+
+.bg-card-hover:hover {
+  background-color: var(--card-hover);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.2s ease-out forwards;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
