@@ -1,5 +1,6 @@
 import { LabFullData } from '../types';
 import { initialPublicationsData } from './publicationsData';
+import { initialProjectsData } from './projectsData';
 
 export const initialLabData: LabFullData = {
   lab: {
@@ -292,120 +293,7 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
       ]
     }
   ],
-  projects: [
-    {
-      id: 'proj-1',
-      titleKo: '센서 및 기상 데이터 기반 과수원 스마트 관리 및 수액 흐름·토양수분 예측 기술 개발',
-      titleEn: 'Development of Smart Orchard Management & Sap Flow/Soil Moisture Prediction Technology Based on Sensor and Meteorological Data',
-      fundingAgency: '농림축산식품부 / 농촌진흥청 스마트팜 다부처 패키지 사업',
-      agencyType: 'government',
-      period: '2023.03 - 2026.12',
-      role: '공동연구원 (Co-PI)',
-      budget: '총 7.8억원',
-      status: 'ongoing',
-      keywords: ['Smart Agriculture', 'Sap Flow', 'Soil Moisture', 'Stacked Autoencoder', 'Granger Causality', 'Machine Learning'],
-      descriptionKo: '센서 및 기상 데이터 연계 SAE(Stacked Autoencoder) 기반 수액 흐름 특징 추출, Granger 인과성 기반 시차 변수 선택 및 RF·SVR·DNN 비교 분석을 통한 과수원 정밀 관수/생육 모니터링 시스템 개발.',
-      relatedThemeId: 'theme-2'
-    },
-    {
-      id: 'proj-2',
-      titleKo: '의료 멀티모달 딥러닝 및 확률적 추론 기반 환자 예후 예측 및 생존분석 모델링',
-      titleEn: 'Medical Multimodal Deep Learning & Probabilistic Inference for Patient Prognosis Prediction & Survival Analysis',
-      fundingAgency: '한국연구재단 (NRF) / 대학병원 협력',
-      agencyType: 'government',
-      period: '2022.03 - 2025.08',
-      role: '연구책임자 (PI)',
-      budget: '총 6.5억원',
-      status: 'ongoing',
-      keywords: ['Medical AI', 'Multimodal Deep Learning', 'PET/CT Prognosis', 'Survival Analysis', 'Patient Clustering'],
-      descriptionKo: '비소세포폐암 및 뇌졸중 환자의 PET/CT 영상학적 특성과 임상 지표를 결합한 멀티모달 딥러닝 예후 예측 및 신경망 기반 환자 군집화(1-year vascular event) 모형 연구.',
-      relatedThemeId: 'theme-1'
-    },
-    {
-      id: 'proj-3',
-      titleKo: '국가거점국립대 빅데이터 기반 신입생 중도탈락 선제적 조기경보 및 학생성공 지원 체계 구축',
-      titleEn: 'Big Data-Driven Early Dropout Warning & Student Success Support System for Flagship National Universities',
-      fundingAgency: '교육부 / 대학혁신지원사업',
-      agencyType: 'government',
-      period: '2024.03 - 2025.12',
-      role: '연구책임자 (PI)',
-      budget: '총 3.2억원',
-      status: 'ongoing',
-      keywords: ['Student Dropout Prediction', 'Big Data', 'Logistic Regression', 'AUC Weighting', 'Early Intervention'],
-      descriptionKo: '입학전형, 단과대학, 지리정보 및 학사 데이터를 융합하여 조기 중도탈락 위험군을 선별하고 맞춤형 선제 개입을 지원하는 AUC 가중 예측 모형 개발.',
-      relatedThemeId: 'theme-4'
-    },
-    {
-      id: 'proj-4',
-      titleKo: '2026 전라남도 사회조사 및 지역 통계 데이터 심층 분석·시각화 프로젝트',
-      titleEn: '2026 Jeollanam-do Social Survey & Regional Statistical Data Deep Analytics and Visualization',
-      fundingAgency: '전라남도청',
-      agencyType: 'government',
-      period: '2026.03 - 2026.12',
-      role: '연구책임자 (PI)',
-      budget: '총 1.5억원',
-      status: 'ongoing',
-      keywords: ['Social Survey', 'Regional Statistics', 'Multivariate Analysis', 'Data Visualization', 'Policy Analytics'],
-      descriptionKo: '전라남도민 생활 실태 및 의식 구조에 대한 다변량 통계 분석, 계층별 지표 모델링 및 맞춤형 정책 수립 지원 데이터 분석·시각화 보고서 작성.',
-      relatedThemeId: 'theme-4'
-    },
-    {
-      id: 'proj-5',
-      titleKo: '농산물(배추·양파) 가격 및 수급 예측을 위한 딥러닝 시계열(LSTM/GRU) 및 도메인 감성사전 구축',
-      titleEn: 'Deep Learning Time-Series (LSTM/GRU) and Domain Sentiment Lexicon for Agricultural Product Price & Supply Forecasting',
-      fundingAgency: '농림축산식품부 / 산학협력단',
-      agencyType: 'government',
-      period: '2022.04 - 2024.12',
-      role: '연구책임자 (PI)',
-      budget: '총 4.8억원',
-      status: 'completed',
-      keywords: ['Crop Price Forecasting', 'LSTM', 'GRU', 'Sentiment Lexicon', 'Text Mining', 'Cluster Analysis'],
-      descriptionKo: '생육기 기상 요인 및 온라인 텍스트 빅데이터 분석 기반 배추·양파 가격 시계열 예측과 비지도 군집분석 기반 도메인 특화 감성지수 산출.',
-      relatedThemeId: 'theme-2'
-    },
-    {
-      id: 'proj-6',
-      titleKo: '기상 빅데이터 및 인공지능 기반 농작물 태풍 피해율 예측 및 스마트 영농 지원 시스템',
-      titleEn: 'Meteorological Big Data & AI-Based Crop Damage Prediction System',
-      fundingAgency: '농림축산식품부 / 산학협력과제',
-      agencyType: 'government',
-      period: '2020.06 - 2023.12',
-      role: '연구책임자 (PI)',
-      budget: '총 8.2억원',
-      status: 'completed',
-      keywords: ['Smart Agriculture', 'Typhoon Prediction', 'Patent Registered', 'Time Series'],
-      descriptionKo: '태풍 이동 경로와 기상 변수를 분석하여 과수 낙과 피해를 사전에 정량 예측하는 통계 모형 개발 및 특허 등록(C-2022-024086).',
-      relatedThemeId: 'theme-2'
-    },
-    {
-      id: 'proj-7',
-      titleKo: '딥러닝 기반 다중 레이블 심전도(ECG) 신호 이상 탐지 및 실시간 분류 알고리즘 연구',
-      titleEn: 'Deep Learning Multi-Label ECG Signal Anomaly Detection & Classification',
-      fundingAgency: '과학기술정보통신부 / 정보통신산업진흥원',
-      agencyType: 'government',
-      period: '2021.01 - 2023.12',
-      role: '연구책임자 (PI)',
-      budget: '총 5.0억원',
-      status: 'completed',
-      keywords: ['ECG', 'SE-ResNet', 'Applied Sciences', 'Biomedical Signal'],
-      descriptionKo: 'SE-ResNet과 k-Labelsets 기법을 융합하여 부정맥 등 복합 심장 질환을 실시간으로 고정밀 분류하는 모델 개발.',
-      relatedThemeId: 'theme-3'
-    },
-    {
-      id: 'proj-8',
-      titleKo: '빅데이터 기반 과학인재양성 사업단 (CK-I 특성화 사업)',
-      titleEn: 'Cultivating Science Talents based on Big Data Analytics (CK-I)',
-      fundingAgency: '교육부 / 한국연구재단',
-      agencyType: 'government',
-      period: '2014.09 - 2019.02',
-      role: '연구책임자 (PI)',
-      budget: '총 50억원+',
-      status: 'completed',
-      keywords: ['CK-I', 'Big Data', 'Talent Cultivation', 'Ministry of Education'],
-      descriptionKo: '전남대학교 빅데이터 전문 인재 양성을 위한 융복합 교육과정 수립 및 산학협력 빅데이터 센터 인프라 구축 총괄.',
-      relatedThemeId: 'theme-4'
-    }
-  ],
+  projects: initialProjectsData,
   publications: initialPublicationsData,
   members: [
     {
