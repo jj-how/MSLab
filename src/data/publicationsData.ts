@@ -2,6 +2,24 @@ import { Publication } from '../types';
 
 export const initialPublicationsData: Publication[] = [
   {
+    id: 'pub-70',
+    title: 'Cross-site transferability of PET/CT radiomic feature groups for survival prediction in non-small cell lung cancer: a bidirectional analysis',
+    authors: ['Won Gi Choi', 'Min-Soo Kim'],
+    labAuthors: ['공동저자 2인', '김민수'],
+    venue: 'BMC Medical Imaging',
+    venueType: 'Journal',
+    category: 'journal',
+    year: 2026,
+    month: '08',
+    pages: '',
+    doi: '10.1186/s12880-026-02645-0',
+    award: '',
+    isHighlighted: true,
+    abstract: '본 연구는 비소세포폐암(NSCLC) 환자의 생존 예측을 위한 PET/CT 라디오믹스 특징 그룹(Shape, First-order, GLCM, GLRLM, GLSZM 등)의 기관 간 이식 가능성(Cross-site transferability)을 양방향 분석(Bidirectional analysis)을 통해 평가한 논문입니다. 서로 다른 기관의 이미지 데이터셋 환경에서 어떤 라디오믹스 특징군이 생존 예측 모델의 전이성 및 범용성에 가장 기여하는지를 체계적으로 검증하여, 다기관 의료 임상 환경에서의 딥러닝 및 통계적 생존 분석 모델의 신뢰성을 제고했습니다.',
+    bibtex: `@article{choi2026cross,\n  title={Cross-site transferability of PET/CT radiomic feature groups for survival prediction in non-small cell lung cancer: a bidirectional analysis},\n  author={Choi, Won Gi and Kim, Min-Soo},\n  journal={BMC Medical Imaging},\n  volume={26},\n  year={2026},\n  doi={10.1186/s12880-026-02645-0}\n}`,
+    tags: ['PET/CT', 'Radiomics', 'Non-Small Cell Lung Cancer', 'Survival Prediction', 'Transferability']
+  },
+  {
     id: 'pub-69',
     title: '멀티모달 딥러닝 기반 비소세포폐암 환자의 생존율 예측 시스템 및 이에 대한 방법',
     authors: ['공동연구원 4인', '김민수'],
