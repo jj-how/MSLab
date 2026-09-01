@@ -7,7 +7,7 @@ export const initialLabData: LabFullData = {
     labNameKo: '다변량통계분석 연구실',
     labNameEn: 'Multivariate Statistical Analysis Laboratory',
     shortName: 'MS Lab',
-    logoUrl: '',
+    logoUrl: 'MSL.png',
     mottoKo: '빅데이터와 인공지능 기술로 데이터 속 숨겨진 통찰과 가치를 창출합니다',
     mottoEn: 'Unlocking Insights and Value through Big Data & Intelligent Statistical Modeling',
     descriptionKo: '본 연구실은 의료 바이오인포매틱스 딥러닝 예후 예측, 기상 및 농업 시계열 데이터 마이닝, 생체 신호(ECG) 패턴 인식, 비선형 회귀 모형 및 빅데이터 분석을 핵심 연구 분야로 삼아 학술적 깊이와 실용적 혁신을 선도합니다.',
