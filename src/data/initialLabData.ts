@@ -30,7 +30,7 @@ export const initialLabData: LabFullData = {
       publicationsCount: 69,
       activeProjectsCount: 5,
       totalGrants: '28억원+',
-      currentMembersCount: 12,
+      currentMembersCount: 7,
       alumniCount: 38
     }
   },
@@ -312,81 +312,94 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
   publications: initialPublicationsData,
   members: [
     {
-      id: 'mem-1788164886612',
+      id: 'mem-1',
+      nameKo: '류지혜',
+      nameEn: '',
+      role: 'phd',
+      roleTitleKo: '박사수료',
+      roleTitleEn: 'Ph.D. Candidate',
+      admissionYear: '',
+      email: '',
+      researchInterests: '',
+      avatarUrl: '',
+      currentAffiliation: ''
+    },
+    {
+      id: 'mem-2',
       nameKo: '박은정',
-      nameEn: 'Eunjeong Park',
+      nameEn: '',
       role: 'phd',
       roleTitleKo: '박사과정',
       roleTitleEn: 'Ph.D. Candidate',
-      admissionYear: '2024',
+      admissionYear: '',
       email: 'eunjeongp323@gmail.com',
-      researchInterests: [
-        '다변량'
-      ],
-      avatarUrl: '/Park.jpg',
-      currentAffiliation: '㈜폴인사이트'
+      researchInterests: '',
+      avatarUrl: '/Park.jpg'
     },
     {
-      id: 'mem-1788154915354',
-      nameKo: '김선호',
-      role: 'integrated',
-      roleTitleKo: '석박통합과정',
-      roleTitleEn: 'Integrated Ph.D.',
-      admissionYear: '2025',
-      email: 'ssuno2576@jnu.ac.kr',
-      researchInterests: [
-        '데이터 기반 작물 생리학 및 시계열 분석'
-      ],
+      id: 'mem-3',
+      nameKo: '박선정',
+      nameEn: '',
+      role: 'ms',
+      roleTitleKo: '석사과정',
+      roleTitleEn: 'M.S. Student',
+      admissionYear: '',
+      email: '',
+      researchInterests: '',
       avatarUrl: '',
       currentAffiliation: '데이터사이언스 대학원'
     },
     {
-      id: 'mem-1788159935191',
+      id: 'mem-4',
+      nameKo: '김선호',
+      role: 'integrated',
+      roleTitleKo: '석박통합과정',
+      roleTitleEn: 'Integrated Ph.D.',
+      admissionYear: '',
+      email: 'ssuno2576@jnu.ac.kr',
+      researchInterests: '',
+      currentAffiliation: '데이터사이언스 대학원'
+    },
+    {
+      id: 'mem-5',
       nameKo: '최원기',
       role: 'integrated',
       roleTitleKo: '석박통합과정',
       roleTitleEn: 'Integrated Ph.D.',
-      admissionYear: '2025',
-      researchInterests: [],
+      admissionYear: '',
+      researchInterests: '',
       avatarUrl: ''
     },
     {
-      id: 'mem-1788159779989',
+      id: 'mem-6',
       nameKo: '오서영',
       role: 'ms',
       roleTitleKo: '석사과정',
       roleTitleEn: 'M.S. Student',
-      admissionYear: '2026',
-      researchInterests: [
-        '시계열',
-        '이미지 인식'
-      ],
+      admissionYear: '',
+      researchInterests: '',
       avatarUrl: '/Oh.jpg'
     },
     {
-      id: 'mem-1788159920301',
+      id: 'mem-7',
       nameKo: '정형준',
       role: 'ms',
       roleTitleKo: '석사과정',
       roleTitleEn: 'M.S. Student',
-      admissionYear: '2026',
-      researchInterests: [
-        '시계열'
-      ],
+      admissionYear: '',
+      researchInterests: '',
       avatarUrl: '',
       email: 'cici626@jnu.ac.kr'
     },
     {
-      id: 'mem-1788069697950',
+      id: 'mem-8',
       nameKo: '이주희',
       role: 'intern',
       roleTitleKo: '학부연구생',
       roleTitleEn: 'Undergrad Intern',
-      admissionYear: '2025',
+      admissionYear: '',
       email: 'lee_jh@jnu.ac.kr',
-      researchInterests: [
-        '다변량통계'
-      ],
+      researchInterests: '',
       avatarUrl: '/Lee.jpg',
     },
     {
