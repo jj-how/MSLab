@@ -353,7 +353,8 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
       role: 'integrated',
       roleTitleKo: '석박통합과정',
       roleTitleEn: 'Integrated Ph.D.',
-      admissionYear: '',
+      admissionYear: '',,
+      email: 'wongi8994@gmail.com',
       researchInterests: '',
       avatarUrl: ''
     },
