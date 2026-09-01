@@ -308,7 +308,7 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
       researchInterests: [
         '다변량'
       ],
-      avatarUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80',
+      avatarUrl: '/Park.jpg',
       currentAffiliation: '㈜폴인사이트'
     },
     {
@@ -332,7 +332,7 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
         '시계열',
         '이미지 인식'
       ],
-      avatarUrl: ''
+      avatarUrl: '/Oh.jpg'
     },
     {
       id: 'mem-1788159920301',
