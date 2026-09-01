@@ -334,8 +334,11 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
       roleTitleEn: 'Integrated Ph.D.',
       admissionYear: '2025',
       email: 'ssuno2576@jnu.ac.kr',
-      researchInterests: [],
-      avatarUrl: ''
+      researchInterests: [
+        '데이터 기반 작물 생리학 및 시계열 분석'
+      ],
+      avatarUrl: '',
+      currentAffiliation: '데이터사이언스 대학원'
     },
     {
       id: 'mem-1788159935191',
