@@ -231,8 +231,8 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
       scholar: '',
       github: '',
       dblp: '',
-      orcid: 'https://orcid.org',
-      linkedin: 'https://linkedin.com'
+      orcid: '',
+      linkedin: ''
     }
   },
   themes: [
