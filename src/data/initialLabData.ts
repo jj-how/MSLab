@@ -327,6 +327,17 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
       currentAffiliation: '㈜폴인사이트'
     },
     {
+      id: 'mem-1788154915354',
+      nameKo: '김선호',
+      role: 'integrated',
+      roleTitleKo: '석박통합과정',
+      roleTitleEn: 'Integrated Ph.D.',
+      admissionYear: '2025',
+      email: 'ssuno2576@jnu.ac.kr',
+      researchInterests: [],
+      avatarUrl: ''
+    },
+    {
       id: 'mem-1788159935191',
       nameKo: '최원기',
       role: 'integrated',
