@@ -358,7 +358,7 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
       researchInterests: [
         '다변량통계'
       ],
-      avatarUrl: ''
+      avatarUrl: '/Lee.jpg',
     },
     {
       id: 'mem-1788069236797',
