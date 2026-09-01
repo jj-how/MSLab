@@ -543,7 +543,17 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
       avatarUrl: ''
     }
   ],
-  news: [],
+  news: [
+    {
+      id: 'test',
+      date: '2026.09.01',
+      titleKo: '연구실소식Test',
+      titleEn: 'News Title in English',
+      contentKo: '상세 내용',
+      contentEn: 'News detailed content.',
+      category: 'Notice'
+    }
+  ],
   seminars: [],
   gallery: [],
   recruitment: {
