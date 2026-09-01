@@ -37,10 +37,7 @@ export const MemberSection: React.FC<MemberSectionProps> = ({
           {/* Section Sub-bar */}
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-12">
             <div className="text-xs sm:text-sm font-mono text-slate-600">
-              {activeTab === 'current' 
-                ? `${lang === 'ko' ? '현재 재학 중인 연구원 총' : 'Total Current Researchers:'} ${currentMembers.length}${lang === 'ko' ? '명' : ''}`
-                : `${lang === 'ko' ? '학계 및 산업계 진출 졸업생 총' : 'Total Proud Alumni:'} ${alumniMembers.length}${lang === 'ko' ? '명' : ''}`
-              }
+              
             </div>
 
             {/* Simple Tab Toggle */}
