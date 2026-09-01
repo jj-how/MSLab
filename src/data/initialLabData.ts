@@ -568,7 +568,16 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
       category: 'Notice'
     }
   ],
-  seminars: [],
+  seminars: [
+    {
+      id: 'seminar Test',
+      date: '2026.09.01',
+      titleKo: 'Test',
+      titleEn: 'Seminar Topic in English',
+      speaker: '발표자 이름',
+      location: '자연과학대학 1호관'
+    }
+  ],
   gallery: [],
   recruitment: {
     openings: [
