@@ -48,11 +48,11 @@ export const initialLabData: LabFullData = {
     officeKo: '자연과학대학 1호관 201호',
     officeEn: 'Natural Sciences Bldg #1, Dept. of Statistics',
     avatarUrl: '/professor.jpg',
-    bioKo: `전남대학교 통계학과 교수로서 자연과학대학 학장(2022.08~2024.07), 국립대학자연과학대학장 협의회 부회장(2023), 빅데이터기반 과학인재양성사업단(CK-I) 단장 및 산학협력단 빅데이터센터장을 역임하였습니다.
+    bioKo: `전남대학교 통계학과 교수로서 현재 전남대학교 교수회장, 전남대학교 교수평의회 의장, 대학평의원회 의장이다. 자연과학대학 학장(2022.08~2024.07), 국립대학자연과학대학장 협의회 부회장(2023), 빅데이터기반 과학인재양성사업단(CK-I) 단장 및 산학협력단 빅데이터센터장을 역임하였다.
 
-카이스트(KAIST) 정보전자연구소 박사후연구원, 카이스트 인공지능패턴인식 연구실(AIPR Lab) 위촉연구원 및 신용보증기금(KODIT) 경영전략실 전문위원을 거쳤으며, 전남대학교 제39대 교수회 수석부회장, 제17대 평의원회 기획이사, 입학본부장 등을 역임하며 학술 발전과 대학 혁신에 기여해 왔습니다.
+카이스트(KAIST) 정보전자연구소 연구원, 카이스트 인공지능패턴인식 연구실(AIPR Lab) 연구원 및 신용보증기금(KODIT) 경영전략실 전문위원을 거쳤으며, 전남대학교에 임용된 이후 전남대학교 입학본부장, 제39대 교수회 수석부회장, 제17대 평의원회 기획이사 등을 역임하며 학술 발전과 대학 혁신에 기여해 왔다.
 
-현재 한국데이터정보과학회 부회장, 한국자료분석학회지 편집위원, 광주광역시 선거여론조사심의위원회 위원으로 활동하고 있으며, 의료 영상(PET) 기반 딥러닝 예후 예측 모형, 뇌졸중 및 암 환자 생존분석, 기상·토양 데이터 마이닝 및 시계열 농업 기상 예측, 다중 레이블 생체 신호(ECG) 딥러닝 분류 등 첨단 인공지능과 응용통계 융합 연구를 활발히 선도하고 있습니다.`,
+현재 한국데이터정보과학회 부회장, 한국자료분석학회지 편집위원, 광주광역시 선거여론조사심의위원회 위원으로 활동하고 있으며, 의료 영상(PET) 기반 딥러닝 예후 예측 모형, 뇌졸중 및 암 환자 생존분석, 기상·토양 데이터 마이닝 및 시계열 농업 기상 예측, 다중 레이블 생체 신호(ECG) 딥러닝 분류 등 첨단 인공지능과 응용통계 융합 연구를 활발히 선도하고 있다.`,
     bioEn: `Dr. Min-Soo Kim is a Professor in the Department of Statistics and Department of Big Data Convergence at Chonnam National University. He formerly served as the Dean of the College of Natural Sciences (2022–2024), Vice President of the National Universities Deans of Natural Sciences Association (2023), Director of the CK-I Big Data Science Talent Development Project, and Director of the Big Data Center at the JNU Industry-Academic Cooperation Foundation.
 
 Prior to his professorship, he was a Postdoctoral Researcher at KAIST Information & Electronics Research Institute, a Visiting Researcher at the KAIST AI & Pattern Recognition Lab (AIPR Lab), and a Senior Professional Member of the Corporate Strategy Office at Korea Credit Guarantee Fund (KODIT).
