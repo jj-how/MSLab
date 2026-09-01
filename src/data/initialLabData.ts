@@ -338,19 +338,6 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
     },
     {
       id: 'mem-3',
-      nameKo: '박선정',
-      nameEn: '',
-      role: 'ms',
-      roleTitleKo: '석사과정',
-      roleTitleEn: 'M.S. Student',
-      admissionYear: '',
-      email: '',
-      researchInterests: '',
-      avatarUrl: '',
-      currentAffiliation: '데이터사이언스 대학원'
-    },
-    {
-      id: 'mem-4',
       nameKo: '김선호',
       role: 'integrated',
       roleTitleKo: '석박통합과정',
@@ -361,7 +348,7 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
       currentAffiliation: '데이터사이언스 대학원'
     },
     {
-      id: 'mem-5',
+      id: 'mem-4',
       nameKo: '최원기',
       role: 'integrated',
       roleTitleKo: '석박통합과정',
@@ -369,6 +356,19 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
       admissionYear: '',
       researchInterests: '',
       avatarUrl: ''
+    },
+    {
+      id: 'mem-5',
+      nameKo: '박선정',
+      nameEn: '',
+      role: 'ms',
+      roleTitleKo: '석사과정',
+      roleTitleEn: 'M.S. Student',
+      admissionYear: '',
+      email: '',
+      researchInterests: '',
+      avatarUrl: '',
+      currentAffiliation: '데이터사이언스 대학원'
     },
     {
       id: 'mem-6',
