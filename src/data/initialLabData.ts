@@ -90,6 +90,21 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
     ],
     experience: [
       {
+        period: '2025.09 - 현재',
+        role: '회장',
+        institution: '전남대학교 교수회'
+      },
+      {
+        period: '2025.09 - 현재',
+        role: '의장',
+        institution: '전남대학교 교수평의회'
+      },
+      {
+        period: '2025.09 - 현재',
+        role: '의장',
+        institution: '전남대학교 대학평의원회'
+      },
+      {
         period: '2007.02 - 현재',
         role: '교수 (Professor)',
         institution: '전남대학교 자연과학대학 통계학과'
