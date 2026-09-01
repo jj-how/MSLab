@@ -592,7 +592,15 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
       location: '자연과학대학 1호관'
     }
   ],
-  gallery: [],
+  gallery: [
+    {
+    id: 'gal-1',
+    titleKo: '연구실 소개',
+    imageUrl: '.jpg', // 표지 이미지 1장만 대표로 사용
+    fileUrl: '/MSL_Introduction.pdf', // 클릭 시 PDF 열람/다운로드
+    date: '2026.09.01'
+  }
+  ],
   recruitment: {
     openings: [
       {
