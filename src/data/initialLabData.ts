@@ -30,7 +30,7 @@ export const initialLabData: LabFullData = {
       publicationsCount: 69,
       activeProjectsCount: 5,
       totalGrants: '28억원+',
-      currentMembersCount: 7,
+      currentMembersCount: 8,
       alumniCount: 38
     }
   },
