@@ -47,7 +47,7 @@ export const initialLabData: LabFullData = {
     phone: '+82-62-530-3441',
     officeKo: '자연과학대학 1호관 201호',
     officeEn: 'Natural Sciences Bldg #1, Dept. of Statistics',
-    avatarUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80',
+    avatarUrl: '/professor.jpg',
     bioKo: `전남대학교 통계학과 교수로서 자연과학대학 학장(2022.08~2024.07), 국립대학자연과학대학장 협의회 부회장(2023), 빅데이터기반 과학인재양성사업단(CK-I) 단장 및 산학협력단 빅데이터센터장을 역임하였습니다.
 
 카이스트(KAIST) 정보전자연구소 박사후연구원, 카이스트 인공지능패턴인식 연구실(AIPR Lab) 위촉연구원 및 신용보증기금(KODIT) 경영전략실 전문위원을 거쳤으며, 전남대학교 제39대 교수회 수석부회장, 제17대 평의원회 기획이사, 입학본부장 등을 역임하며 학술 발전과 대학 혁신에 기여해 왔습니다.
