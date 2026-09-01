@@ -355,8 +355,8 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
       roleTitleEn: 'Integrated Ph.D.',
       admissionYear: '',
       email: 'wongi8994@gmail.com',
-      researchInterests: '/Choi.jpg',
-      avatarUrl: ''
+      researchInterests: '',
+      avatarUrl: '/Choi.jpg'
     },
     {
       id: 'mem-5',
