@@ -228,9 +228,9 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
       '한국자료분석학회 지역이사 (2022.01 - 2023.12)'
     ],
     links: {
-      scholar: 'https://scholar.google.com',
-      github: 'https://github.com',
-      dblp: 'https://dblp.org',
+      scholar: '',
+      github: '',
+      dblp: '',
       orcid: 'https://orcid.org',
       linkedin: 'https://linkedin.com'
     }
