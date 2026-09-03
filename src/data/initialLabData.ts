@@ -595,10 +595,15 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
   gallery: [
     {
     id: 'gal-1',
+    date: '2026.09.01',
     titleKo: '연구실 소개',
-    imageUrl: 'sl1.png', // 표지 이미지 1장만 대표로 사용
-    fileUrl: '/MSL_Introduction.pdf', // 클릭 시 PDF 열람/다운로드
-    date: '2026.09.01'
+    titleEn: 'Lab Introduction',
+    descriptionKo: '다변량통계분석연구실 소개',
+    descriptionEn: 'Introduction to the Multivariate Statistical Analysis Laboratory',
+    imageUrl: '/sl1.png', // 표지 이미지 1장만 대표로 사용
+    files: [
+      { type: 'pdf', url: '/MSL_Introduction.pdf' }
+    ]
   }
   ],
   recruitment: {
