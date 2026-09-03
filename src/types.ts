@@ -134,12 +134,11 @@ export interface NewsItem {
 
 export interface SeminarSchedule {
   id: string;
-  title: string;
-  presenter: string;
   date: string;
-  time: string;
+  titleKo: string;
+  titleEn: string;
+  speaker: string;
   location: string;
-  paperOrTopic: string;
   materialsUrl?: string;
 }
 
@@ -150,6 +149,7 @@ export interface GalleryItem {
   date: string;
   category: string;
   imageUrl: string;
+  images?: string[];
   descriptionKo: string;
   descriptionEn: string;
 }
