@@ -27,9 +27,9 @@ export const initialLabData: LabFullData = {
     contactPhone: '+82-62-530-3441',
     socialLinks: {},
     stats: {
-      publicationsCount: 70,
-      activeProjectsCount: 134,
-      totalGrants: '28억원+',
+      publicationsCount: initialPublicationsData.length,
+      activeProjectsCount: initialProjectsData.length,
+      totalGrants: '',
       currentMembersCount: 8,
       alumniCount: 38
     }
