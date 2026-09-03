@@ -142,6 +142,12 @@ export interface SeminarSchedule {
   materialsUrl?: string;
 }
 
+export interface GalleryFile {
+  type: 'image' | 'pdf' | 'video' | 'file';
+  url: string;
+  name?: string;
+}
+
 export interface GalleryItem {
   id: string;
   titleKo: string;
@@ -149,7 +155,7 @@ export interface GalleryItem {
   date: string;
   category: string;
   imageUrl: string;
-  images?: string[];
+  files?: GalleryFile[];
   descriptionKo: string;
   descriptionEn: string;
 }
