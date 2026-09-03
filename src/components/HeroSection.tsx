@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { LabInfo, NewsItem, ResearchTheme, Publication } from '../types';
+import { LabInfo, NewsItem, ResearchTheme, Publication, LabMember } from '../types';
 import { 
   ArrowRight, FileText, 
   Sparkles, Users, Layers, ExternalLink, GraduationCap,
@@ -12,6 +12,7 @@ interface HeroSectionProps {
   latestNews: NewsItem[];
   themes?: ResearchTheme[];
   publications?: Publication[];
+  members?: LabMember[];
   lang: 'ko' | 'en';
   onNavigate: (sectionId: string) => void;
 }
@@ -21,9 +22,11 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
   latestNews, 
   themes = [], 
   publications = [], 
+  members = [],
   lang, 
   onNavigate 
 }) => {
+  const currentMembersCount = members.filter(m => m.role !== 'alumni').length;
   const topNews = latestNews.find(n => n.isImportant) || latestNews[0];
   const sortedRecentPublications = useMemo(() => sortPublicationsByYear(publications), [publications]);
 
@@ -62,7 +65,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
       descKo: '박사/석사 연구원, 학부연구생 및 자랑스러운 동문',
       descEn: 'Ph.D., M.S., undergraduate interns & proud alumni',
       icon: Users,
-      badge: `${lab.stats.currentMembersCount} Members`
+      badge: `${currentMembersCount} Members`
     },
     {
       id: 'news',
@@ -188,7 +191,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                   </div>
 
                   <div className="p-3 bg-slate-50 rounded-sm border border-slate-100">
-                    <div className="text-2xl font-serif font-bold text-slate-900">{lab.stats.activeProjectsCount}</div>
+                    <div className="text-2xl font-serif font-bold text-slate-900">{currentMembersCount}</div>
                     <div className="text-[11px] font-mono text-slate-500 mt-1">Projects</div>
                   </div>
 
