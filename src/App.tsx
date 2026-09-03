@@ -92,6 +92,7 @@ export default function App() {
             latestNews={labData.news}
             themes={labData.themes}
             publications={labData.publications}
+            members={labData.members}
             lang={lang}
             onNavigate={handleNavigate}
           />
