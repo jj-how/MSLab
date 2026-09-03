@@ -28,7 +28,7 @@ export const initialLabData: LabFullData = {
     socialLinks: {},
     stats: {
       publicationsCount: 70,
-      activeProjectsCount: 100,
+      activeProjectsCount: 134,
       totalGrants: '28억원+',
       currentMembersCount: 8,
       alumniCount: 38
