@@ -169,6 +169,10 @@ export const NewsSection: React.FC<NewsSectionProps> = ({
                   {selectedSeminar.location}
                 </p>
 
+                <p className="text-sm sm:text-base text-slate-700 leading-7">
+                  {lang === 'ko' ? selectedSeminar.descriptionKo : selectedSeminar.descriptionEn}
+                </p>
+
                 {selectedSeminar.materialsUrl && (
                   <a
                     href={selectedSeminar.materialsUrl}
