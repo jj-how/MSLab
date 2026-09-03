@@ -122,8 +122,8 @@ export const NewsSection: React.FC<NewsSectionProps> = ({
             ))}
           </div>
         )}
-
-        {/* Tab 3: Gallery */}
+          
+{/* Tab 3: Gallery */}
         {activeTab === 'gallery' && (
           selectedGallery ? (
             <div>
@@ -141,16 +141,50 @@ export const NewsSection: React.FC<NewsSectionProps> = ({
                 <h2 className="text-2xl font-bold mt-2">
                   {lang === 'ko' ? selectedGallery.titleKo : selectedGallery.titleEn}
                 </h2>
+                <p className="text-sm text-slate-600 mt-2">
+                  {lang === 'ko' ? selectedGallery.descriptionKo : selectedGallery.descriptionEn}
+                </p>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                {(selectedGallery.images || [selectedGallery.imageUrl]).map((image, index) => (
-                  <img
-                    key={index}
-                    src={image}
-                    alt={`${selectedGallery.titleKo} ${index + 1}`}
-                    className="w-full aspect-[4/3] object-cover rounded-sm border border-slate-200"
-                  />
+              <div className="space-y-6">
+                {selectedGallery.files?.map((file, index) => (
+                  <div key={index}>
+                    {file.type === 'image' && (
+                      <img
+                        src={file.url}
+                        alt={file.name || `${selectedGallery.titleKo} ${index + 1}`}
+                        className="max-w-full rounded-sm border border-slate-200"
+                      />
+                    )}
+
+                    {file.type === 'pdf' && (
+                      <iframe
+                        src={file.url}
+                        title={file.name || selectedGallery.titleKo}
+                        className="w-full h-[800px] border border-slate-200 rounded-sm"
+                      />
+                    )}
+
+                    {file.type === 'video' && (
+                      <video
+                        controls
+                        className="w-full rounded-sm border border-slate-200"
+                      >
+                        <source src={file.url} />
+                      </video>
+                    )}
+
+                    {file.type === 'file' && (
+                      <a
+                        href={file.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sky-800 font-semibold hover:underline"
+                      >
+                        {file.name || '파일 열기'}
+                      </a>
+                    )}
+                  </div>
                 ))}
               </div>
             </div>
@@ -180,8 +214,3 @@ export const NewsSection: React.FC<NewsSectionProps> = ({
             </div>
           )
         )}
-      </div>
-    </section>
-  </div>
-);
-};
