@@ -155,17 +155,18 @@ export const NewsSection: React.FC<NewsSectionProps> = ({
                   {selectedSeminar.date}
                 </span>
 
-                <h2 className="text-xl font-bold text-slate-900 mt-2 mb-5">
-                  {lang === 'ko' ? selectedSeminar.titleKo : selectedSeminar.titleEn}
+                <div className="flex flex-wrap items-baseline gap-3 mt-2">
+                  <h2 className="text-xl font-bold text-slate-900">
+                    {lang === 'ko' ? selectedSeminar.titleKo : selectedSeminar.titleEn}
                 </h2>
 
-                <div className="text-sm text-slate-600 space-y-2 mb-6">
-                  <p>Presenter: <span className="text-slate-900">{selectedSeminar.speaker}</span></p>
-                  <p>Location: <span className="text-slate-900">{selectedSeminar.location}</span></p>
+                <span className="text-sm text-slate-500">
+                  Presenter: <span className="text-slate-900 font-medium">{selectedSeminar.speaker}</span>
+                  </span>
                 </div>
 
-                <p className="text-sm sm:text-base text-slate-700 leading-7">
-                  {lang === 'ko' ? selectedSeminar.descriptionKo : selectedSeminar.descriptionEn}
+                <p className="text-sm text-slate-400 mt-2 mb-6">
+                  {selectedSeminar.location}
                 </p>
 
                 {selectedSeminar.materialsUrl && (
