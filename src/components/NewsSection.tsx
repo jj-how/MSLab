@@ -20,6 +20,7 @@ export const NewsSection: React.FC<NewsSectionProps> = ({
   onNavigateHome 
 }) => {
   const [activeTab, setActiveTab] = useState<'news' | 'seminar' | 'gallery'>('news');
+  const [selectedGallery, setSelectedGallery] = useState<GalleryItem | null>(null);
   const sortedNews = useMemo(() => sortNewsByDate(news), [news]);
 
   return (
@@ -124,23 +125,60 @@ export const NewsSection: React.FC<NewsSectionProps> = ({
 
         {/* Tab 3: Gallery */}
         {activeTab === 'gallery' && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-            {gallery.map((item) => (
-              <div key={item.id} className="bg-white rounded-sm border border-slate-200 shadow-xs overflow-hidden group">
-                <img
-                  src={item.imageUrl}
-                  alt={item.titleKo}
-                  className="w-full h-44 object-cover group-hover:scale-105 transition duration-300"
-                />
-                <div className="p-3">
-                  <span className="font-mono text-[10px] font-semibold text-sky-800">{item.date}</span>
-                  <h5 className="text-xs font-semibold text-slate-900 truncate mt-0.5">
-                    {lang === 'ko' ? item.titleKo : item.titleEn}
-                  </h5>
-                </div>
+          selectedGallery ? (
+            <div>
+              <button
+                onClick={() => setSelectedGallery(null)}
+                className="mb-6 text-sm font-semibold text-sky-800 hover:underline"
+              >
+                ← {lang === 'ko' ? '갤러리 목록으로' : 'Back to Gallery'}
+              </button>
+
+              <div className="mb-8">
+                <span className="font-mono text-xs font-semibold text-sky-800">
+                  {selectedGallery.date}
+                </span>
+                <h2 className="text-2xl font-bold mt-2">
+                  {lang === 'ko' ? selectedGallery.titleKo : selectedGallery.titleEn}
+                </h2>
               </div>
-            ))}
-          </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                {(selectedGallery.images || [selectedGallery.imageUrl]).map((image, index) => (
+                  <img
+                    key={index}
+                    src={image}
+                    alt={`${selectedGallery.titleKo} ${index + 1}`}
+                    className="w-full aspect-[4/3] object-cover rounded-sm border border-slate-200"
+                  />
+                ))}
+              </div>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+              {gallery.map((item) => (
+                <button
+                  key={item.id}
+                  onClick={() => setSelectedGallery(item)}
+                  className="text-left bg-white rounded-sm border border-slate-200 shadow-xs overflow-hidden group hover:shadow-md transition"
+                >
+                  <img
+                    src={item.imageUrl}
+                    alt={item.titleKo}
+                    className="w-full h-44 object-cover group-hover:scale-105 transition duration-300"
+                  />
+                  <div className="p-3">
+                    <span className="font-mono text-[10px] font-semibold text-sky-800">
+                      {item.date}
+                    </span>
+                    <h5 className="text-xs font-semibold text-slate-900 truncate mt-0.5">
+                      {lang === 'ko' ? item.titleKo : item.titleEn}
+                    </h5>
+                  </div>
+                </button>
+              ))}
+            </div>
+          )
         )}
       </div>
     </section>
