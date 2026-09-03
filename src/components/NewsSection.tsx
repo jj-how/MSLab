@@ -107,10 +107,12 @@ export const NewsSection: React.FC<NewsSectionProps> = ({
               <div key={sem.id} className="p-4 sm:p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs hover:bg-slate-50/60 transition">
                 <div>
                   <div className="flex items-center gap-2 mb-1">
-                    <span className="font-mono text-sky-800 font-bold">{sem.date} · {sem.time}</span>
+                    <span className="font-mono text-sky-800 font-bold">{sem.date}</span>
                     <span className="text-slate-500 font-mono">({sem.location})</span>
                   </div>
-                  <h4 className="text-sm font-semibold text-slate-900">{sem.topic}</h4>
+                  <h4 className="text-sm font-semibold text-slate-900">
+                    {lang === 'ko' ? sem.titleKo : sem.titleEn}
+                  </h4>
                 </div>
                 <div className="font-mono text-slate-600 bg-slate-50 px-2.5 py-1 rounded-sm border border-slate-200">
                   Presenter: <span className="text-slate-900 font-medium">{sem.presenter}</span>
