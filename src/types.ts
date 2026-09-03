@@ -139,6 +139,8 @@ export interface SeminarSchedule {
   titleEn: string;
   speaker: string;
   location: string;
+  descriptionKo: string;
+  descriptionEn: string;
   materialsUrl?: string;
 }
 
