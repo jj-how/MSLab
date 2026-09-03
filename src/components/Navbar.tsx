@@ -73,7 +73,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             <img
               src={lab.logoUrl}
               alt={lab.shortName}
-              className="w-10 h-10 rounded-sm object-contain bg-white p-0.5 shadow-xs group-hover:border-sky-400 transition-all duration-200"
+              className="w-10 h-10 rounded-sm object-contain p-0.5 transition-all duration-200"
               referrerPolicy="no-referrer"
               onError={(e) => {
                 (e.target as HTMLImageElement).style.display = 'none';
