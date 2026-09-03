@@ -28,10 +28,9 @@ export const initialLabData: LabFullData = {
     socialLinks: {},
     stats: {
       publicationsCount: initialPublicationsData.length,
-      activeProjectsCount: initialProjectsData.length,
+      activeProjectsCount: 134,
       totalGrants: '',
-      currentMembersCount: 8,
-      alumniCount: 38
+      currentMembersCount: 10
     }
   },
   professor: {
