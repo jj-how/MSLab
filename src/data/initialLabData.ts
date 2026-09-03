@@ -313,7 +313,7 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
   members: [
     {
       id: 'mem-1',
-      nameKo: '류지혜',
+      nameKo: '유지혜',
       nameEn: '',
       role: 'phd',
       roleTitleKo: '박사수료',
@@ -373,6 +373,19 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
     },
     {
       id: 'mem-6',
+      nameKo: '국아름',
+      nameEn: '',
+      role: 'ms',
+      roleTitleKo: '석사과',
+      roleTitleEn: 'M.S. Student',
+      admissionYear: '',
+      email: '',
+      researchInterests: '',
+      avatarUrl: '',
+      currentAffiliation: ''
+    },
+    {
+      id: 'mem-7',
       nameKo: '오서영',
       role: 'ms',
       roleTitleKo: '석사과정',
@@ -382,7 +395,7 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
       avatarUrl: '/Oh.jpg'
     },
     {
-      id: 'mem-7',
+      id: 'mem-8',
       nameKo: '정형준',
       role: 'ms',
       roleTitleKo: '석사과정',
@@ -393,7 +406,7 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
       email: 'cici626@jnu.ac.kr'
     },
     {
-      id: 'mem-8',
+      id: 'mem-9',
       nameKo: '이주희',
       role: 'intern',
       roleTitleKo: '학부연구생',
