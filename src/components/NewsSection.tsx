@@ -115,7 +115,7 @@ export const NewsSection: React.FC<NewsSectionProps> = ({
                   </h4>
                 </div>
                 <div className="font-mono text-slate-600 bg-slate-50 px-2.5 py-1 rounded-sm border border-slate-200">
-                  Presenter: <span className="text-slate-900 font-medium">{sem.presenter}</span>
+                  Presenter: <span className="text-slate-900 font-medium">{sem.speaker}</span>
                 </div>
               </div>
             ))}
