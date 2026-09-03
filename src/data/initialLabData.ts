@@ -588,7 +588,7 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
       date: '2026.09.04',
       titleKo: 'Lab Seminar - 논문 리뷰',
       titleEn: 'Paper Review',
-      speaker: '다변량통계분석 연구실',
+      speaker: '모든 연구원',
       location: '자연과학대학 1호관 - 문헌실'
     }
   ],
