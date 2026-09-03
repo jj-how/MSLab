@@ -600,7 +600,8 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
     titleEn: 'Lab Introduction',
     descriptionKo: '다변량통계분석연구실 소개',
     descriptionEn: 'Introduction to the Multivariate Statistical Analysis Laboratory',
-    imageUrl: '/s1.jpg', // 표지 이미지 1장만 대표로 사용
+    imageUrl: 
+      { type: 'jpg', url: '/s1.jpg' } // 표지 이미지 1장만 대표로 사용
     files: [
       { type: 'pdf', url: '/MSL_Introduction.pdf' }
     ]
