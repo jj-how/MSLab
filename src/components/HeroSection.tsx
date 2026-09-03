@@ -191,12 +191,12 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                   </div>
 
                   <div className="p-3 bg-slate-50 rounded-sm border border-slate-100">
-                    <div className="text-2xl font-serif font-bold text-slate-900">{currentMembersCount}</div>
+                    <div className="text-2xl font-serif font-bold text-slate-900">{lab.stats.activeProjectsCount}</div>
                     <div className="text-[11px] font-mono text-slate-500 mt-1">Projects</div>
                   </div>
 
                   <div className="p-3 bg-slate-50 rounded-sm border border-slate-100">
-                    <div className="text-2xl font-serif font-bold text-slate-900">{lab.stats.currentMembersCount}</div>
+                    <div className="text-2xl font-serif font-bold text-slate-900">{currentMembersCount}</div>
                     <div className="text-[11px] font-mono text-slate-500 mt-1">Members</div>
                   </div>
                 </div>
