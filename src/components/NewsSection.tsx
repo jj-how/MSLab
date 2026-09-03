@@ -22,6 +22,7 @@ export const NewsSection: React.FC<NewsSectionProps> = ({
   const [activeTab, setActiveTab] = useState<'news' | 'seminar' | 'gallery'>('news');
   const [selectedGallery, setSelectedGallery] = useState<GalleryItem | null>(null);
   const [selectedNews, setSelectedNews] = useState<NewsItem | null>(null);
+  const [selectedSeminar, setSelectedSeminar] = useState<SeminarSchedule | null>(null);
   const sortedNews = useMemo(() => sortNewsByDate(news), [news]);
 
   return (
