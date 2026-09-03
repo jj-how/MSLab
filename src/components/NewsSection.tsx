@@ -139,26 +139,72 @@ export const NewsSection: React.FC<NewsSectionProps> = ({
 
         
 
-        {/* Tab 2: Seminars */}
+{/* Tab 2: Seminars */}
         {activeTab === 'seminar' && (
-          <div className="bg-white rounded-sm border border-slate-200 shadow-xs divide-y divide-slate-100">
-            {seminars.map((sem) => (
-              <div key={sem.id} className="p-4 sm:p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs hover:bg-slate-50/60 transition">
-                <div>
-                  <div className="flex items-center gap-2 mb-1">
-                    <span className="font-mono text-sky-800 font-bold">{sem.date}</span>
-                    <span className="text-slate-500 font-mono">({sem.location})</span>
-                  </div>
-                  <h4 className="text-sm font-semibold text-slate-900">
-                    {lang === 'ko' ? sem.titleKo : sem.titleEn}
-                  </h4>
+          selectedSeminar ? (
+            <div>
+              <button
+                onClick={() => setSelectedSeminar(null)}
+                className="mb-6 text-sm font-semibold text-sky-800 hover:underline"
+              >
+                ← {lang === 'ko' ? '세미나 목록으로' : 'Back to Seminars'}
+              </button>
+
+              <div className="bg-white border border-slate-200 rounded-sm p-6 sm:p-8">
+                <span className="font-mono text-xs font-semibold text-sky-800">
+                  {selectedSeminar.date}
+                </span>
+
+                <h2 className="text-xl font-bold text-slate-900 mt-2 mb-5">
+                  {lang === 'ko' ? selectedSeminar.titleKo : selectedSeminar.titleEn}
+                </h2>
+
+                <div className="text-sm text-slate-600 space-y-2 mb-6">
+                  <p>Presenter: <span className="text-slate-900">{selectedSeminar.speaker}</span></p>
+                  <p>Location: <span className="text-slate-900">{selectedSeminar.location}</span></p>
                 </div>
-                <div className="font-mono text-slate-600 bg-slate-50 px-2.5 py-1 rounded-sm border border-slate-200">
-                  Presenter: <span className="text-slate-900 font-medium">{sem.speaker}</span>
-                </div>
+
+                <p className="text-sm sm:text-base text-slate-700 leading-7">
+                  {lang === 'ko' ? selectedSeminar.descriptionKo : selectedSeminar.descriptionEn}
+                </p>
+
+                {selectedSeminar.materialsUrl && (
+                  <a
+                    href={selectedSeminar.materialsUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mt-6 text-sm font-semibold text-sky-800 hover:underline"
+                  >
+                    {lang === 'ko' ? '세미나 자료 보기' : 'View Seminar Materials'}
+                  </a>
+                )}
               </div>
-            ))}
-          </div>
+            </div>
+          ) : (
+            <div className="bg-white rounded-sm border border-slate-200 shadow-xs divide-y divide-slate-100">
+              {seminars.map((sem) => (
+                <button
+                  key={sem.id}
+                  onClick={() => setSelectedSeminar(sem)}
+                  className="w-full text-left p-4 sm:p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs hover:bg-slate-50/60 transition"
+                >
+                  <div>
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="font-mono text-sky-800 font-bold">{sem.date}</span>
+                      <span className="text-slate-500 font-mono">({sem.location})</span>
+                    </div>
+                    <h4 className="text-sm font-semibold text-slate-900">
+                      {lang === 'ko' ? sem.titleKo : sem.titleEn}
+                    </h4>
+                  </div>
+
+                  <div className="font-mono text-slate-600 bg-slate-50 px-2.5 py-1 rounded-sm border border-slate-200">
+                    Presenter: <span className="text-slate-900 font-medium">{sem.speaker}</span>
+                  </div>
+                </button>
+              ))}
+            </div>
+          )
         )}
           
         {/* Tab 3: Gallery */}
