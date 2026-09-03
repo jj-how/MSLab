@@ -573,12 +573,12 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
   ],
   news: [
     {
-      id: 'test',
+      id: 'N-1',
       date: '2026.09.01',
-      titleKo: '연구실소식Test',
-      titleEn: 'News Title in English',
-      contentKo: '상세 내용',
-      contentEn: 'News detailed content.',
+      titleKo: '다변량통계분석 연구실 홈페이지 개설',
+      titleEn: 'Launch of the Multivariate Statistical Analysis Laboratory Website',
+      contentKo: '다변량통계분석 연구실 홈페이지를 새롭게 개설했습니다. 연구실 소개, 연구분야, 구성원, 연구성과 및 세미나 소식을 확인하실 수 있습니다.',
+      contentEn: 'The Multivariate Statistical Analysis Laboratory has launched its new website. You can find information about our research areas, members, publications, seminars, and lab activities.',
       category: 'Notice'
     }
   ],
