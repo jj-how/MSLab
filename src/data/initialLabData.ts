@@ -376,7 +376,7 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
       nameKo: '국아름',
       nameEn: '',
       role: 'ms',
-      roleTitleKo: '석사과',
+      roleTitleKo: '석사과정',
       roleTitleEn: 'M.S. Student',
       admissionYear: '',
       email: '',
