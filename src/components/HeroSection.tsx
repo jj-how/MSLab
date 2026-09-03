@@ -44,7 +44,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
       descKo: '핵심 연구 테마 및 정부/산학 수탁 연구과제 현황',
       descEn: 'Key research pillars and funded research projects',
       icon: Layers,
-      badge: `${themes.length || 4} Pillars`
+      badge: `${themes.length} Pillars`
     },
     {
       id: 'publications',
@@ -53,7 +53,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
       descKo: '최상위 학회(Top Conf) 및 SCI 저널 논문 & BibTeX 인용',
       descEn: 'Top conference & SCI journal papers with BibTeX',
       icon: BookOpen,
-      badge: `${lab.stats.publicationsCount}+ Papers`
+      badge: `${publications.length} Papers`
     },
     {
       id: 'members',
