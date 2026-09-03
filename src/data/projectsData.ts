@@ -2,7 +2,7 @@ import { ResearchProject } from '../types';
 
 export const initialProjectsData: ResearchProject[] = [
   {
-    id: 'proj-1',
+    id: 'proj-38',
     titleKo: '머신러닝 기반 노지 작물 수급 예측 모델 연구',
     titleEn: 'Machine Learning-Based Open-Field Crop Supply and Demand Prediction Model Research',
     fundingAgency: '전남대학교 산학협력단',
@@ -14,7 +14,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '노지 작물의 생육 환경, 기상 데이터 및 유통 데이터를 결합한 머신러닝 기반 수급 및 가격 예측 통계 모형 연구.'
   },
   {
-    id: 'proj-2',
+    id: 'proj-37',
     titleKo: '과수의 생장정보 및 기상정보를 이용한 수액 흐름 예측 모형 개발',
     titleEn: 'Development of Sap Flow Prediction Model for Fruit Trees Using Growth and Meteorological Data',
     fundingAgency: '전남대학교 산학협력단',
@@ -26,7 +26,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '과수의 생장 정보와 기상 데이터를 실시간 연계하여 수액 흐름과 토양 수분 변화를 예측하는 스마트 농업 통계 모형 개발.'
   },
   {
-    id: 'proj-3',
+    id: 'proj-36',
     titleKo: '농작물의 태풍피해 예측 연구',
     titleEn: 'Research on Typhoon Damage Prediction for Agricultural Crops',
     fundingAgency: '전남대학교',
@@ -38,7 +38,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '태풍 이동 경로 및 기상 인자에 따른 주요 과수 및 농작물의 낙과 및 도복 피해율 사전 예측 분석.'
   },
   {
-    id: 'proj-4',
+    id: 'proj-35',
     titleKo: '수형, 품종, 연생을 고려한 동양 배 결과지 전정 판단 및 예측 연구',
     titleEn: 'Pruning Decision and Prediction Study for Asian Pear Bearing Branches Considering Tree Form, Cultivar, and Age',
     fundingAgency: '전남대학교 산학협력단',
@@ -50,7 +50,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '배나무의 수형, 품종, 연생 및 기저부 직경을 기반으로 의사결정나무 모델을 활용한 정량적 전정 기준 수립 연구.'
   },
   {
-    id: 'proj-5',
+    id: 'proj-34',
     titleKo: '예비연구사업단 (램프(LAMP)사업)',
     titleEn: 'Preliminary Research Program (LAMP Project)',
     fundingAgency: '전남대학교',
@@ -62,7 +62,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '기초과학 및 다학제 융합연구 역량 강화를 위한 전남대학교 LAMP 예비연구사업 통계 모델링 지원.'
   },
   {
-    id: 'proj-6',
+    id: 'proj-33',
     titleKo: '(산학협력단 부속연구센터) 빅데이터센터',
     titleEn: 'Big Data Center (Affiliated Research Center of IACF)',
     fundingAgency: '전남대학교산학협력단',
@@ -74,7 +74,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '산학협력단 부속 빅데이터센터 운영 총괄 및 지역 산업체·공공기관 연계 데이터 분석 및 AI 솔루션 제공.'
   },
   {
-    id: 'proj-7',
+    id: 'proj-32',
     titleKo: '기상재해에 따른 농작물의 피해 예측 연구',
     titleEn: 'Prediction Study on Agricultural Crop Damage from Meteorological Disasters',
     fundingAgency: '전남대학교산학협력단',
@@ -86,7 +86,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '이상기후 및 극한 기상 현상에 따른 지역별 농작물 피해 위험도 지수 개발 및 예측.'
   },
   {
-    id: 'proj-8',
+    id: 'proj-31',
     titleKo: 'PET 영상 및 멀티모달 임상 데이터를 결합한 암 환자 예후 예측 딥러닝 모델 개발',
     titleEn: 'Development of Deep Learning Model for Cancer Patient Prognosis Prediction Combining PET Images and Multimodal Clinical Data',
     fundingAgency: '한국연구재단 (NRF) / 대학병원 협력',
@@ -99,7 +99,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '3D PET/CT 대사 영상과 전자의무기록(EMR) 임상 데이터를 결합하여 비소세포폐암 환자의 치료 반응 및 5년 생존율을 예측하는 앙상블 딥러닝 시스템 개발.'
   },
   {
-    id: 'proj-9',
+    id: 'proj-30',
     titleKo: '딥러닝 기반 다중 레이블 심전도(ECG) 신호 이상 탐지 및 실시간 분류 알고리즘 연구',
     titleEn: 'Deep Learning-Based Multi-Label ECG Signal Anomaly Detection and Real-Time Classification Algorithm Research',
     fundingAgency: '과학기술정보통신부 / 정보통신산업진흥원',
@@ -112,7 +112,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: 'Squeeze-and-Excitation Residual Network(SE-ResNet)과 k-Labelsets 앙상블 기법을 활용한 다중 레이블 심혈관 이상 신호 고정밀 실시간 분류 알고리즘 개발.'
   },
   {
-    id: 'proj-10',
+    id: 'proj-29',
     titleKo: '[기초보호융복합] 배추와 양파의 이상기후 및 농작물 생육지수 개발',
     titleEn: '[Basic Protection Convergence] Development of Abnormal Climate and Crop Growth Indices for Cabbage and Onion',
     fundingAgency: '전남대학교',
@@ -124,7 +124,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '기후 변화에 취약한 주요 채소류의 생육 주기별 기상 감응도를 정량화하여 농작물 생육 위험 지수 개발.'
   },
   {
-    id: 'proj-11',
+    id: 'proj-28',
     titleKo: '기상 빅데이터 및 인공지능 기반 농작물 태풍 피해율 예측 및 스마트 영농 지원 시스템',
     titleEn: 'Meteorological Big Data and AI-Based Crop Typhoon Damage Rate Prediction and Smart Farming Support System',
     fundingAgency: '농림축산식품부 / 산학협력과제',
@@ -137,7 +137,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '태풍 중심 기압, 이동 반경, 순간 최대풍속 및 지리 정보를 연계하여 과수원 낙과 피해율을 사전 산출하는 지능형 통계 시스템 구축 (특허 등록: C-2022-024086).'
   },
   {
-    id: 'proj-12',
+    id: 'proj-27',
     titleKo: '전국도매시장 데이터 품목별 등급분류기준 수립 용역',
     titleEn: 'Service for Establishing Grade Classification Standards for Nationwide Wholesale Market Data by Item',
     fundingAgency: '농수산물유통공사',
@@ -149,7 +149,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '전국 농수산물 도매시장의 실거래 거래 데이터를 정제·분석하여 품목별 객관적 품질 등급 분류 및 기준 가격 산출 알고리즘 수립.'
   },
   {
-    id: 'proj-13',
+    id: 'proj-26',
     titleKo: '빅데이터 과학교육연구단',
     titleEn: 'Big Data Science Education & Research Group',
     fundingAgency: '전남대학교 산학협력단',
@@ -161,7 +161,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '자연과학 및 데이터 과학 융합 교육 과정 기획 및 연구 인프라 조성.'
   },
   {
-    id: 'proj-14',
+    id: 'proj-25',
     titleKo: '주요 농산물 수급지수 개발용역',
     titleEn: 'Development of Supply and Demand Indices for Major Agricultural Products',
     fundingAgency: '농수산물유통공사',
@@ -173,7 +173,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '주요 월동 채소 및 양념 채소류의 재배 면적, 출하량 및 기상 요인을 종합 반영한 수급 지수 개발.'
   },
   {
-    id: 'proj-15',
+    id: 'proj-24',
     titleKo: '빅데이터에 기반한 농작물의 생산량 및 가격 예측 모형 개발',
     titleEn: 'Development of Crop Yield and Price Prediction Models Based on Big Data',
     fundingAgency: '한국연구재단 (NRF)',
@@ -185,7 +185,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '농업 기상 센서, 위성 데이터 및 도매시장 거래 내역을 통합한 고차원 공간 시계열 통계 예측 모형 구축.'
   },
   {
-    id: 'proj-16',
+    id: 'proj-23',
     titleKo: '전라남도 구례군 사회조사 결과분석 용역',
     titleEn: 'Jeollanam-do Gurye-gun Social Survey Analysis Service',
     fundingAgency: '구례군',
@@ -197,7 +197,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '구례군민의 삶의 질, 복지, 경제 및 정책 수요에 대한 표본 설계 및 다변량 통계 심층 분석 보고서 작성.'
   },
   {
-    id: 'proj-17',
+    id: 'proj-22',
     titleKo: '전라남도 영광군 사회조사 결과분석 용역',
     titleEn: 'Jeollanam-do Yeonggwang-gun Social Survey Analysis Service',
     fundingAgency: '영광군',
@@ -209,7 +209,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '영광군 지역 주민들의 생활 만족도, 복지 수요 및 군정 평가에 대한 연례 사회조사 분석.'
   },
   {
-    id: 'proj-18',
+    id: 'proj-21',
     titleKo: '전라남도 영암군 사회조사 결과분석 연구용역',
     titleEn: 'Jeollanam-do Yeongam-gun Social Survey Analysis Research Service',
     fundingAgency: '영암군',
@@ -221,7 +221,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '영암군민의 사회적 관심사와 생활상에 관한 다차원 통계 지표 개발 및 연례 분석 용역.'
   },
   {
-    id: 'proj-19',
+    id: 'proj-20',
     titleKo: '전라남도 장성군 사회조사 결과분석 용역',
     titleEn: 'Jeollanam-do Jangseong-gun Social Survey Analysis Service',
     fundingAgency: '장성군',
@@ -233,7 +233,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '장성군 지역 사회 전반의 실태 및 군민 의식 구조 분석을 통한 맞춤형 정책 지표 산출.'
   },
   {
-    id: 'proj-20',
+    id: 'proj-19',
     titleKo: '전라남도 진도군 사회조사 결과분석 용역',
     titleEn: 'Jeollanam-do Jindo-gun Social Survey Analysis Service',
     fundingAgency: '진도군',
@@ -245,7 +245,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '진도군 도서 및 농어촌 지역 군민의 주거, 교통, 환경, 보건에 관한 사회조사 데이터 분석.'
   },
   {
-    id: 'proj-21',
+    id: 'proj-18',
     titleKo: '전라남도 함평군 사회조사 결과분석 용역',
     titleEn: 'Jeollanam-do Hampyeong-gun Social Survey Analysis Service',
     fundingAgency: '함평군',
@@ -257,7 +257,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '함평군민의 행정 서비스 만족도, 지역 복지 및 정주 여건에 관한 표본 통계 심층 분석.'
   },
   {
-    id: 'proj-22',
+    id: 'proj-17',
     titleKo: '산학마일리지 과제',
     titleEn: 'Industry-Academic Mileage Project',
     fundingAgency: '전남대학교산학협력단',
@@ -269,7 +269,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '대학 보유 통계 및 데이터 분석 원천 기술의 기업 연계 및 산학 협력 활성화 연구.'
   },
   {
-    id: 'proj-23',
+    id: 'proj-16',
     titleKo: '전라남도 곡성군 사회조사 결과분석 용역',
     titleEn: 'Jeollanam-do Gokseong-gun Social Survey Analysis Service',
     fundingAgency: '곡성군청',
@@ -281,7 +281,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '곡성군 지역 주민 삶의 질 변화 추이 및 인구 소멸 대응 정책 수립을 위한 데이터 분석.'
   },
   {
-    id: 'proj-24',
+    id: 'proj-15',
     titleKo: '빅데이터 기반의 농식품산업 경영체를 위한 서비스 방안 연구',
     titleEn: 'Research on Service Measures for Agri-Food Industry Management Based on Big Data',
     fundingAgency: '농촌진흥청',
@@ -293,7 +293,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '농식품 생산 및 유통 경영체의 경영 효율성 제고를 위한 데이터 기반 의사결정 지원 플랫폼 설계.'
   },
   {
-    id: 'proj-25',
+    id: 'proj-14',
     titleKo: '2015년 기준 고용형태별 근로실태조사 지역별 자료추정',
     titleEn: 'Regional Data Estimation for Survey on Labor Conditions by Employment Type (2015)',
     fundingAgency: '고용노동부',
@@ -305,7 +305,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '고용형태별 근로실태조사 원시자료를 활용하여 시·군·구 단위 소지역 고용 및 임금 통계를 추정하는 통계 모델 수립.'
   },
   {
-    id: 'proj-26',
+    id: 'proj-13',
     titleKo: '전라남도 담양군 사회조사 결과 분석 및 보고서 작성',
     titleEn: 'Jeollanam-do Damyang-gun Social Survey Analysis & Report Preparation',
     fundingAgency: '담양군',
@@ -317,7 +317,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '담양군민의 주거 복지, 생태 관광, 군정 참여도 등에 대한 연례 사회조사 분석 및 최종 보고서 작성.'
   },
   {
-    id: 'proj-27',
+    id: 'proj-12',
     titleKo: '전라남도 사회조사 결과분석 용역',
     titleEn: 'Jeollanam-do Provincial Social Survey Analysis Service',
     fundingAgency: '전라남도',
@@ -329,7 +329,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '전라남도 22개 시·군 2만여 가구를 대상으로 한 광역 사회조사 데이터의 가중치 산출, 교차 분석 및 종합 보고서 발간.'
   },
   {
-    id: 'proj-28',
+    id: 'proj-11',
     titleKo: '전라남도 순천시 사회조사 결과분석 용역',
     titleEn: 'Jeollanam-do Suncheon-si Social Survey Analysis Service',
     fundingAgency: '순천시',
@@ -341,7 +341,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '순천시민의 환경, 교육, 문화 및 정주 만족도 조사 결과에 대한 다변량 통계 분석.'
   },
   {
-    id: 'proj-29',
+    id: 'proj-10',
     titleKo: '전라남도 여수시 사회조사 결과분석 용역',
     titleEn: 'Jeollanam-do Yeosu-si Social Survey Analysis Service',
     fundingAgency: '여수시',
@@ -353,7 +353,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '여수시 거주 시민들의 사회 안전, 보건 복지, 관광 수용 태세에 관한 사회조사 분석.'
   },
   {
-    id: 'proj-30',
+    id: 'proj-9',
     titleKo: '광양시 사회조사 결과분석 용역',
     titleEn: 'Gwangyang-si Social Survey Analysis Service',
     fundingAgency: '광양시',
@@ -365,7 +365,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '광양시 시민의 경제 활동, 정주 환경 및 복지 체감도에 관한 표본 데이터 통계 분석.'
   },
   {
-    id: 'proj-31',
+    id: 'proj-8',
     titleKo: '빅데이터기반 과학 인재양성 사업단',
     titleEn: 'Science Talent Cultivation Group Based on Big Data',
     fundingAgency: '한국연구재단 (NRF)',
@@ -377,7 +377,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '빅데이터 분석 역량을 갖춘 기초과학 융복합 인재 양성 및 교육 커리큘럼 개발.'
   },
   {
-    id: 'proj-32',
+    id: 'proj-7',
     titleKo: '2015년 광양시 사회조사 결과분석 용역',
     titleEn: '2015 Gwangyang-si Social Survey Analysis Service',
     fundingAgency: '광양시',
@@ -389,7 +389,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '2015년 광양시 사회조사 원시자료 전산 처리 및 통계 분석.'
   },
   {
-    id: 'proj-33',
+    id: 'proj-6',
     titleKo: '빅데이터 기반 과학인재양성 사업단 (CK-I 특성화 사업)',
     titleEn: 'Cultivating Science Talents based on Big Data Analytics (CK-I)',
     fundingAgency: '교육부 / 한국연구재단',
@@ -402,7 +402,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '전남대학교 빅데이터 전문 인재 양성을 위한 융복합 교육과정 수립 및 산학협력 빅데이터 센터 인프라 구축 총괄.'
   },
   {
-    id: 'proj-34',
+    id: 'proj-5',
     titleKo: '빅데이터기반과학인재양성사업단',
     titleEn: 'Big Data Science Talent Training Group',
     fundingAgency: '한국연구재단 (NRF)',
@@ -414,7 +414,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '대학 학부 및 대학원생을 위한 데이터 사이언스 실습 환경 및 산학 프로젝트 지원.'
   },
   {
-    id: 'proj-35',
+    id: 'proj-4',
     titleKo: '간호학과 신입생의 자기주도적 학습능력이 학습몰입에 미치는 영향에서 대학 적응의 매개효과',
     titleEn: 'Mediating Effect of University Adaptation on the Relationship between Self-Directed Learning Ability and Learning Flow in Nursing Freshmen',
     fundingAgency: '전남대학교',
@@ -426,7 +426,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '구조방정식 및 매개효과 통계 검정을 통한 대학 신입생의 적응과 학습몰입 인과모형 규명.'
   },
   {
-    id: 'proj-36',
+    id: 'proj-3',
     titleKo: '전남대학교 연구력 증진을 위한 정책연구',
     titleEn: 'Policy Research for Enhancing Chonnam National University Research Capabilities',
     fundingAgency: '전남대학교',
@@ -438,7 +438,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '전남대학교 교원 연구 실적 및 연구비 수주 패턴에 대한 계량적 통계 분석을 바탕으로 한 연구력 증진 정책 수립.'
   },
   {
-    id: 'proj-37',
+    id: 'proj-2',
     titleKo: '국가적 부도상황에서의 업종간 부도율 비교 분석',
     titleEn: 'Comparative Analysis of Default Rates Across Industries in National Default Situations',
     fundingAgency: '전남대학교',
@@ -450,7 +450,7 @@ export const initialProjectsData: ResearchProject[] = [
     descriptionKo: '거시 경제 위기 상황에서 산업 업종별 기업 부도 확률 및 생존 기간에 대한 통계적 비교 분석.'
   },
   {
-    id: 'proj-38',
+    id: 'proj-1',
     titleKo: '비디오 영상에서 추출된 문자영역분리 및 인식방법에 대한 연구',
     titleEn: 'Study on Text Region Segmentation and Recognition Methods Extracted from Video Images',
     fundingAgency: '전남대학교',
