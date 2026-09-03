@@ -4,7 +4,7 @@ export const initialPublicationsData: Publication[] = [
   {
     id: 'pub-70',
     title: 'Cross-site transferability of PET/CT radiomic feature groups for survival prediction in non-small cell lung cancer: a bidirectional analysis',
-    authors: ['Won Gi Choi', 'Min-Soo Kim'],
+    authors: ['공동연구원 2인', 'Min-Soo Kim'],
     labAuthors: ['공동저자 2인', '김민수'],
     venue: 'BMC Medical Imaging',
     venueType: 'Journal',
