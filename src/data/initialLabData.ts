@@ -573,7 +573,7 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
   ],
   news: [
     {
-      id: 'N-1',
+      id: 'N-260901',
       date: '2026.09.01',
       titleKo: '다변량통계분석 연구실 홈페이지 개설',
       titleEn: 'Launch of the Multivariate Statistical Analysis Laboratory Website',
@@ -584,7 +584,7 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
   ],
   seminars: [
     {
-      id: 'seminar-1',
+      id: 'sem-260904',
       date: '2026.09.04',
       titleKo: 'Lab Seminar - 논문 리뷰',
       titleEn: 'Paper Review',
@@ -596,7 +596,7 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
   ],
   gallery: [
     {
-    id: 'gal-1',
+    id: 'gal-260901',
     date: '2026.09.01',
     titleKo: '연구실 소개',
     titleEn: 'Lab Introduction',
