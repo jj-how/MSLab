@@ -585,7 +585,7 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
   seminars: [
     {
       id: 'seminar-1',
-      date: '2026.09.03',
+      date: '2026.09.04',
       titleKo: 'Lab Seminar - 논문 리뷰',
       titleEn: 'Paper Review',
       speaker: '다변량통계분석 연구실',
