@@ -123,7 +123,7 @@ export const NewsSection: React.FC<NewsSectionProps> = ({
           </div>
         )}
           
-{/* Tab 3: Gallery */}
+        {/* Tab 3: Gallery */}
         {activeTab === 'gallery' && (
           selectedGallery ? (
             <div>
@@ -214,3 +214,8 @@ export const NewsSection: React.FC<NewsSectionProps> = ({
             </div>
           )
         )}
+      </div>
+    </section>
+  </div>
+);
+};
