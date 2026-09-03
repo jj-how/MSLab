@@ -21,6 +21,7 @@ export const NewsSection: React.FC<NewsSectionProps> = ({
 }) => {
   const [activeTab, setActiveTab] = useState<'news' | 'seminar' | 'gallery'>('news');
   const [selectedGallery, setSelectedGallery] = useState<GalleryItem | null>(null);
+  const [selectedNews, setSelectedNews] = useState<NewsItem | null>(null);
   const sortedNews = useMemo(() => sortNewsByDate(news), [news]);
 
   return (
@@ -80,26 +81,62 @@ export const NewsSection: React.FC<NewsSectionProps> = ({
             </div>
           </div>
 
-        {/* Tab 1: News */}
+{/* Tab 1: News */}
         {activeTab === 'news' && (
-          <div className="bg-white rounded-sm border border-slate-200 shadow-xs divide-y divide-slate-100">
-            {sortedNews.map((item) => (
-              <div key={item.id} className="p-4 sm:p-5 flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 hover:bg-slate-50/60 transition">
-                <div className="space-y-1">
-                  <div className="flex items-center gap-2">
-                    <span className="font-mono text-xs font-semibold text-sky-800">{item.date}</span>
-                    <span className="px-2 py-0.5 rounded-sm text-[10px] font-mono uppercase bg-slate-100 text-slate-600 border border-slate-200">
-                      {item.category}
-                    </span>
-                  </div>
-                  <h4 className="text-sm font-semibold text-slate-900">
-                    {lang === 'ko' ? item.titleKo : item.titleEn}
-                  </h4>
+          selectedNews ? (
+            <div>
+              <button
+                onClick={() => setSelectedNews(null)}
+                className="mb-6 text-sm font-semibold text-sky-800 hover:underline"
+              >
+                ← {lang === 'ko' ? '목록으로' : 'Back to News'}
+              </button>
+
+              <div className="bg-white border border-slate-200 rounded-sm p-6 sm:p-8">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="font-mono text-xs font-semibold text-sky-800">
+                    {selectedNews.date}
+                  </span>
+                  <span className="px-2 py-0.5 rounded-sm text-[10px] font-mono uppercase bg-slate-100 text-slate-600 border border-slate-200">
+                    {selectedNews.category}
+                  </span>
                 </div>
+
+                <h2 className="text-xl font-bold text-slate-900 mb-6">
+                  {lang === 'ko' ? selectedNews.titleKo : selectedNews.titleEn}
+                </h2>
+
+                <p className="text-sm sm:text-base text-slate-700 leading-7">
+                  {lang === 'ko' ? selectedNews.contentKo : selectedNews.contentEn}
+                </p>
               </div>
-            ))}
-          </div>
+            </div>
+          ) : (
+            <div className="bg-white rounded-sm border border-slate-200 shadow-xs divide-y divide-slate-100">
+              {sortedNews.map((item) => (
+                <button
+                  key={item.id}
+                  onClick={() => setSelectedNews(item)}
+                  className="w-full text-left p-4 sm:p-5 hover:bg-slate-50/60 transition"
+                >
+                  <div className="space-y-1">
+                    <div className="flex items-center gap-2">
+                      <span className="font-mono text-xs font-semibold text-sky-800">{item.date}</span>
+                      <span className="px-2 py-0.5 rounded-sm text-[10px] font-mono uppercase bg-slate-100 text-slate-600 border border-slate-200">
+                        {item.category}
+                      </span>
+                    </div>
+                    <h4 className="text-sm font-semibold text-slate-900">
+                      {lang === 'ko' ? item.titleKo : item.titleEn}
+                    </h4>
+                  </div>
+                </button>
+              ))}
+            </div>
+          )
         )}
+
+        
 
         {/* Tab 2: Seminars */}
         {activeTab === 'seminar' && (
