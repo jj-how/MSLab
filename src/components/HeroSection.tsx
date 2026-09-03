@@ -183,7 +183,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
 
                 <div className="grid grid-cols-3 gap-3 text-center">
                   <div className="p-3 bg-slate-50 rounded-sm border border-slate-100">
-                    <div className="text-2xl font-serif font-bold text-slate-900">{lab.stats.publicationsCount}+</div>
+                    <div className="text-2xl font-serif font-bold text-slate-900">{lab.stats.publicationsCount}</div>
                     <div className="text-[11px] font-mono text-slate-500 mt-1">Papers</div>
                   </div>
 
