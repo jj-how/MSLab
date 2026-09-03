@@ -80,7 +80,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               }}
             />
           ) : (
-            <div className="w-8 h-8 rounded-sm bg-[#b7e0fa] border border-[#8ed0fa] flex items-center justify-center text-slate-900 font-serif font-bold text-sm shadow-xs group-hover:bg-[#9ed3f7] transition-all duration-200">
+            <div className="w-9 h-9 rounded-sm bg-[#b7e0fa] flex items-center justify-center text-slate-900 font-serif font-bold text-sm shadow-xs group-hover:bg-[#9ed3f7] transition-all duration-200">
               {lab.shortName.slice(0, 3)}
             </div>
           )}
