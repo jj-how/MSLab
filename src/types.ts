@@ -123,7 +123,7 @@ export interface NewsItem {
   id: string;
   titleKo: string;
   titleEn: string;
-  category: 'paper' | 'award' | 'grant' | 'seminar' | 'general';
+  category: 'paper' | 'award' | 'grant' | 'seminar' | 'general' | 'notice';
   date: string;
   contentKo: string;
   contentEn: string;
