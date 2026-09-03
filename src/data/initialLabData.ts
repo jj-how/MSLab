@@ -584,12 +584,12 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
   ],
   seminars: [
     {
-      id: 'seminar Test',
-      date: '2026.09.01',
-      titleKo: 'Test',
-      titleEn: 'Seminar Topic in English',
-      speaker: '발표자 이름',
-      location: '자연과학대학 1호관'
+      id: 'seminar-1',
+      date: '2026.09.03',
+      titleKo: 'Lab Seminar - 논문 리뷰',
+      titleEn: 'Paper Review',
+      speaker: '다변량통계분석 연구실',
+      location: '자연과학대학 1호관 - 문헌실'
     }
   ],
   gallery: [
