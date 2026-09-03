@@ -589,7 +589,9 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
       titleKo: 'Lab Seminar - 논문 리뷰',
       titleEn: 'Paper Review',
       speaker: '모든 연구원',
-      location: '자연과학대학 1호관 - 문헌실'
+      location: '자연과학대학 1호관 - 문헌실',
+      descriptionKo: '매주 시행할 논문 세미나 관련 일정 및 상세 내용을 공유하는 시간을 가지도록 하겠습니다.',
+      descriptionEn: 'We will share the schedule and detailed information for the weekly paper seminar.'
     }
   ],
   gallery: [
