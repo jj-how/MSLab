@@ -391,7 +391,8 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
       roleTitleEn: 'M.S. Student',
       admissionYear: '',
       researchInterests: '',
-      avatarUrl: '/Oh.jpg'
+      avatarUrl: '/Oh.jpg',
+      email: 'esder1105@jnu.ac.kr'
     },
     {
       id: 'mem-8',
