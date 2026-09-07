@@ -173,6 +173,30 @@ export const NewsSection: React.FC<NewsSectionProps> = ({
                   {lang === 'ko' ? selectedSeminar.descriptionKo : selectedSeminar.descriptionEn}
                 </p>
 
+                {selectedSeminar.files && selectedSeminar.files.length > 0 && (
+                  <div className="mt-6 space-y-6">
+                    {selectedSeminar.files.map((file, index) => (
+                      <div key={index}>
+                        {file.type === 'image' && (
+                          <img
+                            src={file.url}
+                            alt={file.name || 'Seminar image'}
+                            className="w-full max-w-4xl rounded-sm border border-slate-200"
+                          />
+                        )}
+                        
+                        {file.type === 'pdf' && (
+                          <iframe
+                            src={file.url}
+                            title={file.name || 'Seminar PDF'}
+                            className="w-full h-[700px] border border-slate-200 rounded-sm"
+                          />
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                )}
+
                 {selectedSeminar.materialsUrl && (
                   <a
                     href={selectedSeminar.materialsUrl}
