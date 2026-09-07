@@ -610,7 +610,7 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
         {type: 'pdf',
          url: '',
          name: ''}
-      ]
+      ],
       descriptionKo: `-9월 2주차 연구 성과 발표-
       
         생존결과 라벨이 없는 새 코호트에서 생존예측모형 비교: 조건부 결과 시프트 하 Brier 위험차의 sharp 부분식별 - 최원기
