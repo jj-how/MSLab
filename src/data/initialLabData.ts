@@ -597,6 +597,24 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
   ],
   seminars: [
     {
+      id: 'sem-260907',
+      date: '2026.09.07',
+      titleKo: 'Lab Seminar - 9월 2주차 연구 성과',
+      titleEn: 'Research Presentation',
+      speaker: '모든 연구원',
+      location: '자연과학대학 1호관 - 문헌실',
+      descriptionKo: `-9월 2주차 연구 성과 발표-
+      
+        생존결과 라벨이 없는 새 코호트에서 생존예측모형 비교: 조건부 결과 시프트 하 Brier 위험차의 sharp 부분식별 - 최원기
+        
+    Trajectory-based detection of a late-season sugar-composition transition in ‘Niitaka’ pear over six growing seasons - 김선호`
+      descriptionEn: `- Research Presentations for the Second Week of September -
+      
+      Comparison of Survival Prediction Models in a New Cohort Without Survival Outcome Labels: Sharp Partial Identification of the Brier Risk Difference under Conditional Outcome Shift - Wonki Choi
+      
+      Trajectory-based Detection of a Late-season Sugar-composition Transition in ‘Niitaka’ Pear over Six Growing Seasons - Sunho Kim`
+    },
+    {
       id: 'sem-260904',
       date: '2026.09.04',
       titleKo: 'Lab Seminar - 논문 리뷰',
