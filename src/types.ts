@@ -132,6 +132,12 @@ export interface NewsItem {
   isImportant?: boolean;
 }
 
+export interface SeminarFile {
+  type: 'image' | 'pdf';
+  url: string;
+  name?: string;
+}
+
 export interface SeminarSchedule {
   id: string;
   date: string;
@@ -142,6 +148,7 @@ export interface SeminarSchedule {
   descriptionKo: string;
   descriptionEn: string;
   materialsUrl?: string;
+  files?: FileItem[];
 }
 
 export interface GalleryFile {
