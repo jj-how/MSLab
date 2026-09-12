@@ -145,14 +145,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
 
               {/* Primary Action Buttons */}
               <div className="flex flex-wrap items-center gap-3.5 pt-2">
-                <button
-                  id="hero-cta-recruitment"
-                  onClick={() => onNavigate('recruitment')}
-                  className="px-6 py-3 rounded-sm text-xs font-mono font-bold uppercase tracking-wider bg-[#b7e0fa] hover:bg-[#9ed3f7] text-slate-900 transition flex items-center gap-2 shadow-sm border border-[#8ed0fa]"
-                >
-                  <span>{lang === 'ko' ? '신입 연구원 모집 (Join Us)' : 'Join Our Lab'}</span>
-                  <ArrowRight className="w-3.5 h-3.5" />
-                </button>
 
                 <button
                   id="hero-cta-publications"
