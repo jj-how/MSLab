@@ -174,32 +174,44 @@ export const NewsSection: React.FC<NewsSectionProps> = ({
                 </p>
 
                 {selectedSeminar.files && selectedSeminar.files.length > 0 && (
-                  <div className="mt-10 flex flex-wrap gap-2">
-                    {selectedSeminar.files.map((file, index) => (
-                      <div key={index} className={file.type === 'image' ? 'w-full' : ''}>
-                        {file.type === 'image' && (
-                          <img
+                  <div className="mt-10">
+                    {/* 이미지 */}
+                    <div className="space-y-4">
+                      {selectedSeminar.files
+                        .filter(file => file.type === 'image')
+                          .map((file, index) => (
+                            <img
+                            key={index}
                             src={file.url}
                             alt={file.name || 'Seminar image'}
                             className="w-full max-w-4xl rounded-sm border border-slate-200"
                           />
                         )}
-                        
-                        {file.type === 'pdf' && (
-                          <a
-                            href={file.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-sky-800 bg-sky-50 border border-sky-200 rounded-sm hover:bg-sky-100 transition"
-                          >
-                            📄 {file.name || (lang === 'ko' ? '발표자료 보기' : 'View Presentation')}
-                          </a>
+                      </div>
+
+                      {/* 구분선 + PDF 버튼 */}
+                      {selectedSeminar.files.some(file => file.type === 'pdf') && (
+                        <div className="mt-8 pt-5 border-t border-slate-200">
+                          <div className="flex flex-wrap gap-2">
+                            {selectedSeminar.files
+                              .filter(file => file.type === 'pdf')
+                              .map((file, index) => (
+                                <a
+                                  key={index}
+                                  href={file.url}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-sky-800 bg-sky-50 border border-sky-200 rounded-sm hover:bg-sky-100 transition"
+                                >
+                                  📄 {file.name || (lang === 'ko' ? '발표자료 보기' : 'View Presentation')}
+                                </a>
+                              ))}
+                            </div>
+                          </div>
                         )}
                       </div>
-                    ))}
-                  </div>
-                )}
-
+                    )}
+              
                 {selectedSeminar.materialsUrl && (
                   <a
                     href={selectedSeminar.materialsUrl}
