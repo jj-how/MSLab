@@ -174,7 +174,7 @@ export const NewsSection: React.FC<NewsSectionProps> = ({
                 </p>
 
                 {selectedSeminar.files && selectedSeminar.files.length > 0 && (
-                  <div className="mt-6 space-y-6">
+                  <div className="mt-10 flex flex-wrap gap-2">
                     {selectedSeminar.files.map((file, index) => (
                       <div key={index}>
                         {file.type === 'image' && (
@@ -190,7 +190,7 @@ export const NewsSection: React.FC<NewsSectionProps> = ({
                             href={file.url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center gap-2 px-4 py-2.5 text-sm font-semibold text-sky-800 bg-sky-50 border border-sky-200 rounded-sm hover:bg-sky-100 transition"
+                            className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-sky-800 bg-sky-50 border border-sky-200 rounded-sm hover:bg-sky-100 transition"
                           >
                             📄 {file.name || (lang === 'ko' ? '발표자료 보기' : 'View Presentation')}
                           </a>
