@@ -609,7 +609,10 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
          name: 'Pr20260916_Jung'},   
         {type: 'pdf',  
          url: '/Pr20260916_Oh.pdf',
-         name: 'Pr20260916_Oh'}
+         name: 'Pr20260916_Oh'},
+        {type: 'image',  
+         url: '/Pr20260916.jpg',
+         name: 'Pr20260916'}
       ],
       descriptionKo: `      
         A Unified Approach to Interpreting Model Predictions - 정형준
