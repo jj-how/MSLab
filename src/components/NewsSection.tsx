@@ -186,11 +186,14 @@ export const NewsSection: React.FC<NewsSectionProps> = ({
                         )}
                         
                         {file.type === 'pdf' && (
-                          <iframe
-                            src={file.url}
-                            title={file.name || 'Seminar PDF'}
-                            className="w-full h-[700px] border border-slate-200 rounded-sm"
-                          />
+                          <a
+                            href={file.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 px-4 py-2.5 text-sm font-semibold text-sky-800 bg-sky-50 border border-sky-200 rounded-sm hover:bg-sky-100 transition"
+                          >
+                            📄 {file.name || (lang === 'ko' ? '발표자료 보기' : 'View Presentation')}
+                          </a>
                         )}
                       </div>
                     ))}
