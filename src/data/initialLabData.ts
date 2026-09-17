@@ -597,6 +597,32 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
   ],
   seminars: [
         {
+      id: 'sem-260916',
+      date: '2026.09.16',
+      titleKo: 'Lab Seminar - 논문 리뷰',
+      titleEn: 'Paper Review',
+      speaker: '모든 연구원',
+      location: '자연과학대학 1호관 - 문헌실',
+      files: [
+        {type: '',  
+         url: '',
+         name: ''}
+      ],
+      descriptionKo: `      
+        A Unified Approach to Interpreting Model Predictions - 정형준
+        
+        Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles - 오서영
+
+        Semi-supervised Classification with Graph convolutional networks - 이주희`,
+      descriptionEn: `- Research Presentations for the Third Week of September -
+      
+      A Unified Approach to Interpreting Model Predictions — Hyungjun Jung
+      
+      Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles — Seoyoung Oh
+      
+      Semi-supervised Classification with Graph convolutional networks - Juhui Lee`
+    },
+        {
       id: 'sem-260914',
       date: '2026.09.14',
       titleKo: 'Lab Seminar - 9월 3주차 연구 성과 발표',
