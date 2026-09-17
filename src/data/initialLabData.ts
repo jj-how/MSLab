@@ -604,9 +604,12 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
       speaker: '모든 연구원',
       location: '자연과학대학 1호관 - 문헌실',
       files: [
-        {type: '',  
-         url: '',
-         name: ''}
+        {type: 'pdf',  
+         url: '/Pr20260916_Jung.pdf',
+         name: 'Pr20260916_Jung'},   
+        {type: 'pdf',  
+         url: '/Pr20260916_Oh.pdf',
+         name: 'Pr20260916_Oh'}
       ],
       descriptionKo: `      
         A Unified Approach to Interpreting Model Predictions - 정형준
