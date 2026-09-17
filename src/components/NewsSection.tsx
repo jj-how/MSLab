@@ -176,7 +176,7 @@ export const NewsSection: React.FC<NewsSectionProps> = ({
                 {selectedSeminar.files && selectedSeminar.files.length > 0 && (
                   <div className="mt-10 flex flex-wrap gap-2">
                     {selectedSeminar.files.map((file, index) => (
-                      <div key={index}>
+                      <div key={index} className={file.type === 'image' ? 'w-full' : ''}>
                         {file.type === 'image' && (
                           <img
                             src={file.url}
