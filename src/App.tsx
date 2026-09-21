@@ -29,7 +29,7 @@ export default function App() {
   // Background check for IndexedDB backup if localStorage was empty on cold start
   useEffect(() => {
     loadFromIndexedDB().then((idbData) => {
-      if (idbData && (!localStorage.getItem('jnu_msa_stat_lab_data_v6'))) {
+      if (idbData && (!localStorage.getItem('jnu_msa_stat_lab_data_v7'))) {
         setLabData(idbData);
       }
     }).catch(() => {});
