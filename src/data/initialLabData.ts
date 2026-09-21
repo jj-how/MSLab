@@ -603,6 +603,7 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
       titleEn: 'Research Presentation',
       speaker: '모든 연구원',
       location: '자연과학대학 1호관 - 문헌실',
+      files: [],
       descriptionKo: `      
         DAFB 기반 생육기 기상데이터 분석 - 정형준`,
       descriptionEn: `      
@@ -647,7 +648,7 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
       titleEn: 'Research Presentation',
       speaker: '모든 연구원',
       location: '자연과학대학 1호관 - 문헌실',
-      files: '',
+      files: [],
       descriptionKo: `      
         소득 수준에 따른 당뇨 예측요인의 이질성 - 정형준
         
