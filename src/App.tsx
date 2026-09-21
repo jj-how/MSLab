@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { LabFullData, Publication } from './types';
-import { getInitialLabDataSync, persistLabData, loadFromIndexedDB } from './utils/storage';
+import { getInitialLabDataSync, persistLabData } from './utils/storage';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import { ProfessorSection } from './components/ProfessorSection';
@@ -25,15 +25,6 @@ export default function App() {
   const [selectedBibtexPub, setSelectedBibtexPub] = useState<Publication | null>(null);
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const [isAdminOpen, setIsAdminOpen] = useState(false);
-
-  // Background check for IndexedDB backup if localStorage was empty on cold start
-  useEffect(() => {
-    loadFromIndexedDB().then((idbData) => {
-      if (idbData && (!localStorage.getItem('jnu_msa_stat_lab_data_v7'))) {
-        setLabData(idbData);
-      }
-    }).catch(() => {});
-  }, []);
 
   // URL Hash (#admin) & Secret Shortcut (Ctrl+Shift+A) listener
   useEffect(() => {
