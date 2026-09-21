@@ -186,7 +186,7 @@ export const NewsSection: React.FC<NewsSectionProps> = ({
                             alt={file.name || 'Seminar image'}
                             className="w-full max-w-4xl rounded-sm border border-slate-200"
                           />
-                        )}
+                        ))}
                       </div>
 
                       {/* 구분선 + PDF 버튼 */}
