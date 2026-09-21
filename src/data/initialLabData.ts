@@ -597,6 +597,18 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
   ],
   seminars: [
         {
+      id: 'sem-260921',
+      date: '2026.09.21',
+      titleKo: 'Lab Seminar - 9월 4주차 연구 성과 발표',
+      titleEn: 'Research Presentation',
+      speaker: '모든 연구원',
+      location: '자연과학대학 1호관 - 문헌실',
+      descriptionKo: `      
+        DAFB 기반 생육기 기상데이터 분석 - 정형준`,
+      descriptionEn: `      
+       DAFB-Based Weather Data Analysis During the Growing Season — Hyungjun Jung`
+    },
+        {
       id: 'sem-260916',
       date: '2026.09.16',
       titleKo: 'Lab Seminar - 논문 리뷰',
