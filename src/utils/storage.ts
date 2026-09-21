@@ -1,7 +1,7 @@
 import { LabFullData } from '../types';
 import { initialLabData } from '../data/initialLabData';
 
-export const LAB_STORAGE_KEY = 'jnu_msa_stat_lab_data_v6';
+export const LAB_STORAGE_KEY = 'jnu_msa_stat_lab_data_v7';
 const LEGACY_STORAGE_KEYS = [
   'jnu_msa_stat_lab_data',
   'jnu_msa_stat_lab_data_v1',
