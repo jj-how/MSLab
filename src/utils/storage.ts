@@ -9,6 +9,7 @@ const LEGACY_STORAGE_KEYS = [
   'jnu_msa_stat_lab_data_v3',
   'jnu_msa_stat_lab_data_v4',
   'jnu_msa_stat_lab_data_v5',
+  'jnu_msa_stat_lab_data_v6',
   'jnu_msa_stat_lab_data_backup'
 ];
 
