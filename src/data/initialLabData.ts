@@ -597,6 +597,23 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
   ],
   seminars: [
         {
+      id: 'sem-260922',
+      date: '2026.09.22',
+      titleKo: 'Lab Seminar - 논문 리뷰',
+      titleEn: 'Paper Review',
+      speaker: '모든 연구원',
+      location: '자연과학대학 1호관 - 문헌실',
+      files: [
+        {type: 'pdf',  
+         url: '/Pr20260922_Kim.pdf',
+         name: 'Pr20260922_Kim'},
+      ],
+      descriptionKo: `      
+        Mixup Beyond Empirical Risk Minimization - 김선호`,
+      descriptionEn: `      
+        Mixup Beyond Empirical Risk Minimization - Sunho Kim`
+    },
+        {
       id: 'sem-260921',
       date: '2026.09.21',
       titleKo: 'Lab Seminar - 9월 4주차 연구 성과 발표',
