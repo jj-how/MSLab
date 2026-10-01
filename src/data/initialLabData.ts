@@ -597,6 +597,19 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
   ],
   seminars: [
         {
+      id: 'sem-260928',
+      date: '2026.09.28',
+      titleKo: 'Lab Seminar - 9월 5주차 연구 성과 발표',
+      titleEn: 'Paper Review',
+      speaker: '모든 연구원',
+      location: '자연과학대학 1호관 - 문헌실',
+      files: [],
+      descriptionKo: `      
+        Choosing Transferable PET Image Features Without Target Labels: Domain-Distance-Aware Radiomic Selection (DDAU) for Lung-Cancer Survival - 최원기`,
+      descriptionEn: `      
+        Choosing Transferable PET Image Features Without Target Labels: Domain-Distance-Aware Radiomic Selection (DDAU) for Lung-Cancer Survival - Wongi Choi`
+    },
+        {
       id: 'sem-260922',
       date: '2026.09.22',
       titleKo: 'Lab Seminar - 논문 리뷰',
@@ -607,11 +620,18 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
         {type: 'pdf',  
          url: '/Pr20260922_Kim.pdf',
          name: 'Pr20260922_Kim'},
+        {type: 'pdf',  
+         url: '/Pr20260928_Choi.pdf',
+         name: 'Pr20260928_Choi'},
       ],
       descriptionKo: `      
-        Mixup Beyond Empirical Risk Minimization - 김선호`,
+        Mixup Beyond Empirical Risk Minimization - 김선호
+
+        Proximal Policy Optimization Algorithms - 최원기`,
       descriptionEn: `      
-        Mixup Beyond Empirical Risk Minimization - Sunho Kim`
+        Mixup Beyond Empirical Risk Minimization - Sunho Kim
+        
+        Proximal Policy Optimization Algorithms - Wongi Choi`
     },
         {
       id: 'sem-260921',
