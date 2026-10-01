@@ -621,8 +621,8 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
          url: '/Pr20260922_Kim.pdf',
          name: 'Pr20260922_Kim'},
         {type: 'pdf',  
-         url: '/Pr20260928_Choi.pdf',
-         name: 'Pr20260928_Choi'},
+         url: '/Pr20260922_Choi.pdf',
+         name: 'Pr20260922_Choi'},
       ],
       descriptionKo: `      
         Mixup Beyond Empirical Risk Minimization - 김선호
