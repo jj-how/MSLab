@@ -597,6 +597,23 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
   ],
   seminars: [
         {
+      id: 'sem-261006',
+      date: '2026.10.06',
+      titleKo: 'Lab Seminar - 논문 리뷰',
+      titleEn: 'Paper Review',
+      speaker: '모든 연구원',
+      location: '자연과학대학 1호관 - 문헌실',
+      files: [
+        {type: 'pdf',  
+         url: '/Pr20261006_Oh.pdf',
+         name: 'Pr20261006_Oh'},
+      ],
+      descriptionKo: `      
+        Deep double descent: where bigger models and more data hurt - 오서영`,
+      descriptionEn: `      
+        Deep double descent: where bigger models and more data hurt - Seoyoung Oh`
+    },
+        {
       id: 'sem-260928',
       date: '2026.09.28',
       titleKo: 'Lab Seminar - 9월 5주차 연구 성과 발표',
