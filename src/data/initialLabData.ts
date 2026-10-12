@@ -597,6 +597,27 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
   ],
   seminars: [
         {
+      id: 'sem-261012',
+      date: '2026.10.12',
+      titleKo: 'Lab Seminar - 10월 3주차 연구 성과 발표',
+      titleEn: 'Research Presentation',
+      speaker: '모든 연구원',
+      location: '자연과학대학 1호관 - 문헌실',
+      files: [],
+      descriptionKo: `      
+        소득군별 당뇨 예측 요인 - 정형준
+        
+        NIR의 원리와 방법론 및 2024년 Niitaka의 분석 결과와 해석 - 김선호
+        
+        생존분석 모델의 타겟 병원으로의 보류 판단 이후의 검증(얼마나, 어떤 표본이 필요한지) - 최원기`,
+      descriptionEn: `      
+      Predictors of Diabetes by Income Group – Hyeongjun Jeong
+
+      NIR: Principles, Methodology, and Interpretation of 2024 Niitaka Results – Seonho Kim 
+      
+      Validation of Survival Models for a Target Hospital: Sample Size and Selection – Wongi Choi`
+    },
+        {
       id: 'sem-261006',
       date: '2026.10.06',
       titleKo: 'Lab Seminar - 논문 리뷰',
