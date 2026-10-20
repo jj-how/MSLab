@@ -4,8 +4,8 @@ export const initialPublicationsData: Publication[] = [
   {
     id: 'pub-71',
     title: 'Physiology-guided multi-objective machine learning for robust fructose prediction in Asian pear under interannual climate variability',
-    authors: ['공동연구원 2인', 'Min-Soo Kim'],
-    labAuthors: ['공동저자 2인', '김민수'],
+    authors: ['공동연구원 6인', 'Min-Soo Kim'],
+    labAuthors: ['공동저자 6인', '김민수'],
     venue: 'Computers and Electronics in Agriculture',
     venueType: 'SCI/SCIE Journal',
     category: 'journal',
