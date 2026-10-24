@@ -1,5 +1,6 @@
 import { LabFullData } from '../types';
 import { initialLabData } from '../data/initialLabData';
+import { initialPublicationsData } from '../data/publicationsData';
 
 export const LAB_STORAGE_KEY = 'jnu_msa_stat_lab_data_v7';
 const LEGACY_STORAGE_KEYS = [
@@ -110,7 +111,17 @@ export function getInitialLabDataSync(): LabFullData {
     if (saved) {
       const parsed = JSON.parse(saved);
       if (parsed && typeof parsed === 'object' && parsed.lab && parsed.professor) {
-        return parsed;
+        return {
+          ...parsed,
+          publications: [
+            ...(parsed.publications || []),
+            ...initialPublicationsData.filter(
+              pub => !(parsed.publications || []).some(
+                (existing: { id: string }) => existing.id === pub.id
+              )
+            )
+          ]
+        };
       }
     }
   } catch (e) {
