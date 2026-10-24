@@ -18,7 +18,7 @@ export const initialPublicationsData: Publication[] = [
     abstract: '6년간의 신고배 데이터를 활용하여 기상·생육 정보와 이전 당도 측정값을 결합한 생리학 기반 XGBoost 다목적 최적화 모델을 개발하고, 과당 농도 예측 오차를 36.1%, 연도 간 변동성을 70.4% 감소시켜 예측 정확도와 안정성을 향상시킨 연구입니다.',
     bibtex: `@article{kim2026physiology,\n  title={Physiology-guided multi-objective machine learning for robust fructose prediction in Asian pear under interannual climate variability},\n  author={Kim, Sun-Ho and Seo, Su-Mi and Choi, Won-Gi and Kim, Min-Soo and Chung, Sun Woo and Lee, Sang-Hyun},\n  journal={Computers and Electronics in Agriculture},\n  pages={112425},\n  year={2026},\n  doi={10.1016/j.compag.2026.112425}\n}`,
     tags: ['Sugar accumulation', 'Climate gating', 'NSGA-III', 'Leave-one-year-out cross-validation', 'Pyrus pyrifolia']
-  },
+  }, 
   {
     id: 'pub-70',
     title: 'Cross-site transferability of PET/CT radiomic feature groups for survival prediction in non-small cell lung cancer: a bidirectional analysis',
