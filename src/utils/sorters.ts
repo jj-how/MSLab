@@ -28,8 +28,8 @@ export function sortPublicationsByYear(publications: Publication[]): Publication
     if (yearB !== yearA) {
       return yearB - yearA;
     }
-    // Secondary sort: title
-    return (a.title || '').localeCompare(b.title || '');
+    // Secondary sort: month (latest first)
+    return (Number(b.month) || 0) - (Number(a.month) || 0);
   });
 }
 
