@@ -597,6 +597,37 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
   ],
   seminars: [
         {
+      id: 'sem-261023',
+      date: '2026.10.23',
+      titleKo: 'Lab Seminar - 논문 리뷰',
+      titleEn: 'Paper Review',
+      speaker: '모든 연구원',
+      location: '자연과학대학 1호관 - 문헌실',
+      files: [
+        {type: 'pdf',  
+         url: '/Pr20261023_Oh.pdf',
+         name: 'Pr20261023_Oh'},
+        {type: 'pdf',  
+         url: '/Pr20261023_Choi.pdf',
+         name: 'Pr20261023_Choi'},
+        {type: 'pdf',  
+         url: '/Pr20261023_Jung.pdf',
+         name: 'Pr20261023_Jung'},
+      ],
+      descriptionKo: `      
+        A Benchmark of in-the-Wild Distribution Shifts - 오서영
+      
+        A Bayesian nonparametric meta‐analysis model for estimating the reference interval - 최원기
+        
+        Sharpness-Aware Minimization for Efficiently Improving Generalization - 정형준`,
+      descriptionEn: `      
+        A Benchmark of in-the-Wild Distribution Shifts - Seoyoung Oh
+        
+        A Bayesian nonparametric meta‐analysis model for estimating the reference interval - Wongi Choi
+        
+        Sharpness-Aware Minimization for Efficiently Improving Generalization - Hyungjun Jung`
+    },
+        {
       id: 'sem-261016',
       date: '2026.10.16',
       titleKo: 'Lab Seminar - 논문 리뷰',
