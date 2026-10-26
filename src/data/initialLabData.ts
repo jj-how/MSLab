@@ -597,6 +597,22 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
   ],
   seminars: [
         {
+      id: 'sem-261016',
+      date: '2026.10.16',
+      titleKo: 'Lab Seminar - 논문 리뷰',
+      titleEn: 'Research Presentation',
+      speaker: '모든 연구원',
+      location: '자연과학대학 1호관 - 문헌실',
+      files: [
+        {type: 'pdf',  
+         url: '/Pr20261016_Kim.pdf',
+         name: 'Pr20261016_Kim'},],
+      descriptionKo: `      
+        FixMatch - 김선호`,
+      descriptionEn: `      
+      FixMatch – Seonho Kim`
+    },
+        {
       id: 'sem-261012',
       date: '2026.10.12',
       titleKo: 'Lab Seminar - 10월 3주차 연구 성과 발표',
