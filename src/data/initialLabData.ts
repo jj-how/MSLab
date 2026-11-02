@@ -597,6 +597,23 @@ We warmly welcome aspiring researchers who are passionate about discovering hidd
   ],
   seminars: [
         {
+      id: 'sem-261102',
+      date: '2026.11.02',
+      titleKo: 'Lab Seminar - 11월 1주차 연구 성과 발표',
+      titleEn: 'Research Presentation',
+      speaker: '모든 연구원',
+      location: '자연과학대학 1호관 - 문헌실',
+      files: [],
+      descriptionKo: `      
+        Niitaka 당성분과 기상과의 관계성 연구 - 김선호
+        
+        배나무 전정 대상 가지 예측을 위한 연구 방향 - 오서영`,
+      descriptionEn: `      
+      Relationship Between Sugar Composition and Weather Conditions in Niitaka Pears - Sunho Kim
+      
+      Research Directions for Predicting Branches to Prune in Pear Trees - Seoyoung Oh`
+    },
+        {
       id: 'sem-261023',
       date: '2026.10.23',
       titleKo: 'Lab Seminar - 논문 리뷰',
